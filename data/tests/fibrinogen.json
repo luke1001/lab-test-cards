@@ -1,0 +1,30 @@
+{
+  "slug": "fibrinogen",
+  "short_name": "Fibrinogen",
+  "full_name": "Fibrinogen",
+  "pronunciation": "fye-brin-oh-jen",
+  "category": "Coagulation",
+  "accent": "#7c3aed",
+  "icons": [
+    "blue",
+    "fiber",
+    "clot",
+    "factor"
+  ],
+  "what_it_is": "A coagulation test measuring fibrinogen, a protein needed for clot formation.",
+  "why_ordered": [
+    "Assess bleeding or clotting disorders",
+    "Evaluate DIC-related concerns",
+    "Monitor major bleeding workflows",
+    "Often ordered with other coag tests"
+  ],
+  "specimen": "Citrated plasma",
+  "container": "Light blue sodium citrate tube",
+  "helper_cues": [
+    "Correct fill matters",
+    "Avoid clotted specimens",
+    "Route to coagulation"
+  ],
+  "memory_hook": "Fibrinogen is the fiber-maker for clots.",
+  "updated": "2026-05-12"
+}

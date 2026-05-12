@@ -1,0 +1,30 @@
+{
+  "slug": "throat-culture",
+  "short_name": "Throat Culture",
+  "full_name": "Throat Culture",
+  "pronunciation": "throte kul-chur",
+  "category": "Microbiology",
+  "accent": "#ea580c",
+  "icons": [
+    "swab",
+    "throat",
+    "plate",
+    "strep"
+  ],
+  "what_it_is": "A microbiology test that checks throat swabs for specific organism growth.",
+  "why_ordered": [
+    "Evaluate strep or throat infection concerns",
+    "Confirm rapid-test follow-up when ordered",
+    "Support organism identification",
+    "Common outpatient or ED test"
+  ],
+  "specimen": "Throat swab",
+  "container": "Culture swab transport",
+  "helper_cues": [
+    "Use correct swab transport",
+    "Label source clearly",
+    "Route to microbiology"
+  ],
+  "memory_hook": "Throat culture grows the answer from the swab.",
+  "updated": "2026-05-12"
+}

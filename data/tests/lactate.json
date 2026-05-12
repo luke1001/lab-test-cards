@@ -1,0 +1,30 @@
+{
+  "slug": "lactate",
+  "short_name": "Lactate",
+  "full_name": "Lactic Acid",
+  "pronunciation": "lack-tate",
+  "category": "Chemistry",
+  "accent": "#059669",
+  "icons": [
+    "stat",
+    "ice",
+    "tube",
+    "acid"
+  ],
+  "what_it_is": "A time-sensitive chemistry test associated with tissue oxygen and illness stress patterns.",
+  "why_ordered": [
+    "Evaluate possible sepsis or shock",
+    "Monitor critical illness trends",
+    "Assess poor perfusion concerns",
+    "Often handled as urgent"
+  ],
+  "specimen": "Plasma or whole blood",
+  "container": "Gray or green tube, site-specific",
+  "helper_cues": [
+    "STAT handling is common",
+    "Transport quickly per policy",
+    "Ice rules vary by analyzer and site"
+  ],
+  "memory_hook": "Lactate likes speed: collect, route, process.",
+  "updated": "2026-05-12"
+}

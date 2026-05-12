@@ -1,0 +1,30 @@
+{
+  "slug": "retic",
+  "short_name": "Retic",
+  "full_name": "Reticulocyte Count",
+  "pronunciation": "reh-tik-yoo-lo-site count",
+  "category": "Hematology",
+  "accent": "#2563eb",
+  "icons": [
+    "young",
+    "rbc",
+    "marrow",
+    "count"
+  ],
+  "what_it_is": "A count of young red blood cells recently released from marrow.",
+  "why_ordered": [
+    "Evaluate marrow response",
+    "Work up anemia patterns",
+    "Monitor recovery after blood loss",
+    "Often reviewed with CBC results"
+  ],
+  "specimen": "Whole blood",
+  "container": "Lavender EDTA tube",
+  "helper_cues": [
+    "Route to hematology",
+    "Avoid clotted samples",
+    "May require fresh specimen timing"
+  ],
+  "memory_hook": "Retic means young RBCs reporting for duty.",
+  "updated": "2026-05-12"
+}

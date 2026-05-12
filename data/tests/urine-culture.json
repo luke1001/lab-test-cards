@@ -1,0 +1,30 @@
+{
+  "slug": "urine-culture",
+  "short_name": "Urine Culture",
+  "full_name": "Urine Culture",
+  "pronunciation": "you-rin kul-chur",
+  "category": "Microbiology",
+  "accent": "#ea580c",
+  "icons": [
+    "urine",
+    "plate",
+    "germ",
+    "cup"
+  ],
+  "what_it_is": "A microbiology test that checks urine for bacterial growth.",
+  "why_ordered": [
+    "Evaluate possible urinary infection",
+    "Identify organism growth",
+    "Support susceptibility workflow if positive",
+    "Often paired with urinalysis"
+  ],
+  "specimen": "Urine",
+  "container": "Sterile cup or preservative urine tube",
+  "helper_cues": [
+    "Clean-catch quality matters",
+    "Preserve or refrigerate per policy",
+    "Route to microbiology"
+  ],
+  "memory_hook": "Culture asks: what grows from this urine?",
+  "updated": "2026-05-12"
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "cmp",
+  "short_name": "CMP",
+  "full_name": "Comprehensive Metabolic Panel",
+  "pronunciation": "see-em-pee",
+  "category": "Chemistry",
+  "accent": "#059669",
+  "icons": [
+    "liver",
+    "kidney",
+    "salt",
+    "chem"
+  ],
+  "what_it_is": "A broader chemistry panel that includes BMP-style tests plus liver proteins and enzymes.",
+  "why_ordered": [
+    "Review kidney and electrolyte status",
+    "Screen liver-related markers",
+    "Check protein and albumin",
+    "Common wellness and inpatient panel"
+  ],
+  "specimen": "Serum or plasma",
+  "container": "Gold/SST, mint green PST, or local chemistry tube",
+  "helper_cues": [
+    "Route to chemistry",
+    "Separate serum/plasma on time",
+    "Verify local tube preference"
+  ],
+  "memory_hook": "CMP is BMP plus a liver-and-protein view.",
+  "updated": "2026-05-12"
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "wound-culture",
+  "short_name": "Wound Culture",
+  "full_name": "Wound Culture",
+  "pronunciation": "woond kul-chur",
+  "category": "Microbiology",
+  "accent": "#ea580c",
+  "icons": [
+    "swab",
+    "wound",
+    "plate",
+    "germ"
+  ],
+  "what_it_is": "A microbiology test that checks wound material for organism growth.",
+  "why_ordered": [
+    "Evaluate infected wound concerns",
+    "Identify possible organisms",
+    "Support susceptibility workflow if indicated",
+    "Guide provider follow-up"
+  ],
+  "specimen": "Wound swab, tissue, or aspirate",
+  "container": "Culture swab transport or sterile container",
+  "helper_cues": [
+    "Specimen quality matters",
+    "Aspirate or tissue may be preferred",
+    "Route to microbiology"
+  ],
+  "memory_hook": "Better wound specimens give better culture answers.",
+  "updated": "2026-05-12"
+}

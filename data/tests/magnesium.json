@@ -1,0 +1,30 @@
+{
+  "slug": "magnesium",
+  "short_name": "Mg",
+  "full_name": "Magnesium",
+  "pronunciation": "mag-nee-zee-um",
+  "category": "Chemistry",
+  "accent": "#059669",
+  "icons": [
+    "mg",
+    "heart",
+    "muscle",
+    "chem"
+  ],
+  "what_it_is": "A chemistry test measuring magnesium level in blood.",
+  "why_ordered": [
+    "Evaluate abnormal electrolytes",
+    "Monitor replacement therapy",
+    "Assess rhythm or muscle concerns",
+    "Often ordered with BMP or Phos"
+  ],
+  "specimen": "Serum or plasma",
+  "container": "Gold/SST, mint green PST, or local chemistry tube",
+  "helper_cues": [
+    "Route to chemistry",
+    "Avoid hemolysis when possible",
+    "Check add-on stability locally"
+  ],
+  "memory_hook": "Mg helps muscles and rhythms stay steady.",
+  "updated": "2026-05-12"
+}

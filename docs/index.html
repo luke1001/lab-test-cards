@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lab Test Cards</title>
+  <link rel="stylesheet" href="assets/site.css">
+  
+</head>
+<body>
+<main class="index-page">
+  <section class="index-hero">
+    <p class="eyebrow">Hospital lab assistant study cards</p>
+    <h1>Lab Test Cards</h1>
+    <p>Quick recognition, specimen cues, routing awareness, and memory hooks for common main-lab tests.</p>
+    <input id="search" type="search" placeholder="Search CBC, troponin, urine culture..." aria-label="Search lab tests">
+    <div class="filters" aria-label="Category filters"><button class="filter active" data-category="all">All</button><button class="filter" data-category="Hematology">Hematology</button><button class="filter" data-category="Chemistry">Chemistry</button><button class="filter" data-category="Coagulation">Coagulation</button><button class="filter" data-category="Cardiac">Cardiac</button><button class="filter" data-category="Urinalysis">Urinalysis</button><button class="filter" data-category="Microbiology">Microbiology</button></div>
+  </section>
+  <section class="test-grid" aria-label="Common lab tests">
+    <a class="test-tile" href="tests/cbc.html" data-category="Hematology" data-search="cbc complete blood count hematology">
+  <span class="tile-badge" style="--accent:#2563eb">Hematology</span>
+  <strong>CBC</strong>
+  <span>Complete Blood Count</span>
+</a><a class="test-tile" href="tests/esr.html" data-category="Hematology" data-search="esr erythrocyte sedimentation rate hematology">
+  <span class="tile-badge" style="--accent:#2563eb">Hematology</span>
+  <strong>ESR</strong>
+  <span>Erythrocyte Sedimentation Rate</span>
+</a><a class="test-tile" href="tests/retic.html" data-category="Hematology" data-search="retic reticulocyte count hematology">
+  <span class="tile-badge" style="--accent:#2563eb">Hematology</span>
+  <strong>Retic</strong>
+  <span>Reticulocyte Count</span>
+</a><a class="test-tile" href="tests/bmp.html" data-category="Chemistry" data-search="bmp basic metabolic panel chemistry">
+  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
+  <strong>BMP</strong>
+  <span>Basic Metabolic Panel</span>
+</a><a class="test-tile" href="tests/cmp.html" data-category="Chemistry" data-search="cmp comprehensive metabolic panel chemistry">
+  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
+  <strong>CMP</strong>
+  <span>Comprehensive Metabolic Panel</span>
+</a><a class="test-tile" href="tests/glucose.html" data-category="Chemistry" data-search="glucose blood glucose chemistry">
+  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
+  <strong>Glucose</strong>
+  <span>Blood Glucose</span>
+</a><a class="test-tile" href="tests/hba1c.html" data-category="Chemistry" data-search="hba1c hemoglobin a1c chemistry">
+  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
+  <strong>HbA1c</strong>
+  <span>Hemoglobin A1c</span>
+</a><a class="test-tile" href="tests/lactate.html" data-category="Chemistry" data-search="lactate lactic acid chemistry">
+  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
+  <strong>Lactate</strong>
+  <span>Lactic Acid</span>
+</a><a class="test-tile" href="tests/lipid-panel.html" data-category="Chemistry" data-search="lipid panel lipid panel chemistry">
+  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
+  <strong>Lipid Panel</strong>
+  <span>Lipid Panel</span>
+</a><a class="test-tile" href="tests/magnesium.html" data-category="Chemistry" data-search="mg magnesium chemistry">
+  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
+  <strong>Mg</strong>
+  <span>Magnesium</span>
+</a><a class="test-tile" href="tests/phosphorus.html" data-category="Chemistry" data-search="phos phosphorus chemistry">
+  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
+  <strong>Phos</strong>
+  <span>Phosphorus</span>
+</a><a class="test-tile" href="tests/aptt.html" data-category="Coagulation" data-search="aptt activated partial thromboplastin time coagulation">
+  <span class="tile-badge" style="--accent:#7c3aed">Coagulation</span>
+  <strong>aPTT</strong>
+  <span>Activated Partial Thromboplastin Time</span>
+</a><a class="test-tile" href="tests/d-dimer.html" data-category="Coagulation" data-search="d-dimer d-dimer coagulation">
+  <span class="tile-badge" style="--accent:#7c3aed">Coagulation</span>
+  <strong>D-dimer</strong>
+  <span>D-dimer</span>
+</a><a class="test-tile" href="tests/fibrinogen.html" data-category="Coagulation" data-search="fibrinogen fibrinogen coagulation">
+  <span class="tile-badge" style="--accent:#7c3aed">Coagulation</span>
+  <strong>Fibrinogen</strong>
+  <span>Fibrinogen</span>
+</a><a class="test-tile" href="tests/pt-inr.html" data-category="Coagulation" data-search="pt/inr prothrombin time / international normalized ratio coagulation">
+  <span class="tile-badge" style="--accent:#7c3aed">Coagulation</span>
+  <strong>PT/INR</strong>
+  <span>Prothrombin Time / International Normalized Ratio</span>
+</a><a class="test-tile" href="tests/bnp.html" data-category="Cardiac" data-search="bnp b-type natriuretic peptide cardiac">
+  <span class="tile-badge" style="--accent:#dc2626">Cardiac</span>
+  <strong>BNP</strong>
+  <span>B-type Natriuretic Peptide</span>
+</a><a class="test-tile" href="tests/troponin.html" data-category="Cardiac" data-search="troponin cardiac troponin cardiac">
+  <span class="tile-badge" style="--accent:#dc2626">Cardiac</span>
+  <strong>Troponin</strong>
+  <span>Cardiac Troponin</span>
+</a><a class="test-tile" href="tests/urinalysis.html" data-category="Urinalysis" data-search="ua urinalysis urinalysis">
+  <span class="tile-badge" style="--accent:#0891b2">Urinalysis</span>
+  <strong>UA</strong>
+  <span>Urinalysis</span>
+</a><a class="test-tile" href="tests/urine-pregnancy.html" data-category="Urinalysis" data-search="urine hcg urine pregnancy test urinalysis">
+  <span class="tile-badge" style="--accent:#0891b2">Urinalysis</span>
+  <strong>Urine hCG</strong>
+  <span>Urine Pregnancy Test</span>
+</a><a class="test-tile" href="tests/blood-culture.html" data-category="Microbiology" data-search="blood culture blood culture microbiology">
+  <span class="tile-badge" style="--accent:#ea580c">Microbiology</span>
+  <strong>Blood Culture</strong>
+  <span>Blood Culture</span>
+</a><a class="test-tile" href="tests/throat-culture.html" data-category="Microbiology" data-search="throat culture throat culture microbiology">
+  <span class="tile-badge" style="--accent:#ea580c">Microbiology</span>
+  <strong>Throat Culture</strong>
+  <span>Throat Culture</span>
+</a><a class="test-tile" href="tests/urine-culture.html" data-category="Microbiology" data-search="urine culture urine culture microbiology">
+  <span class="tile-badge" style="--accent:#ea580c">Microbiology</span>
+  <strong>Urine Culture</strong>
+  <span>Urine Culture</span>
+</a><a class="test-tile" href="tests/wound-culture.html" data-category="Microbiology" data-search="wound culture wound culture microbiology">
+  <span class="tile-badge" style="--accent:#ea580c">Microbiology</span>
+  <strong>Wound Culture</strong>
+  <span>Wound Culture</span>
+</a>
+  </section>
+</main>
+<script>
+const search = document.querySelector('#search');
+const filters = [...document.querySelectorAll('.filter')];
+const tiles = [...document.querySelectorAll('.test-tile')];
+let active = 'all';
+function applyFilters() {
+  const query = search.value.trim().toLowerCase();
+  tiles.forEach(tile => {
+    const categoryMatch = active === 'all' || tile.dataset.category === active;
+    const searchMatch = !query || tile.dataset.search.includes(query);
+    tile.hidden = !(categoryMatch && searchMatch);
+  });
+}
+search.addEventListener('input', applyFilters);
+filters.forEach(button => button.addEventListener('click', () => {
+  active = button.dataset.category;
+  filters.forEach(item => item.classList.toggle('active', item === button));
+  applyFilters();
+}));
+</script>
+</body>
+</html>

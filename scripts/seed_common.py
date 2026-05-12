@@ -1,0 +1,68 @@
+#!/usr/bin/env python3
+"""Seed common hospital lab test cards."""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+DATA_DIR = ROOT / "data" / "tests"
+UPDATED = "2026-05-12"
+
+
+def card(slug, short, full, pronunciation, category, accent, icons, what, why, specimen, container, cues, memory):
+    return {
+        "slug": slug,
+        "short_name": short,
+        "full_name": full,
+        "pronunciation": pronunciation,
+        "category": category,
+        "accent": accent,
+        "icons": icons,
+        "what_it_is": what,
+        "why_ordered": why,
+        "specimen": specimen,
+        "container": container,
+        "helper_cues": cues,
+        "memory_hook": memory,
+        "updated": UPDATED,
+    }
+
+
+CARDS = [
+    card("cbc", "CBC", "Complete Blood Count", "see-bee-see", "Hematology", "#2563eb", ["cells", "tube", "diff", "count"], "A common hematology test that counts major blood cell groups.", ["Screen anemia or infection clues", "Check platelets before procedures", "Monitor blood loss or therapy", "Often ordered with a differential"], "Whole blood", "Lavender EDTA tube", ["Mix EDTA tubes gently", "Route to hematology", "Watch for clots or short draws"], "CBC counts the cells that carry, fight, and clot."),
+    card("esr", "ESR", "Erythrocyte Sedimentation Rate", "ee-rith-ro-site sed-ih-men-tay-shun rate", "Hematology", "#2563eb", ["rack", "timer", "red", "rate"], "A timed test that measures how quickly red cells settle.", ["Screen for inflammation patterns", "Follow chronic inflammatory conditions", "Often paired with CRP", "Not a STAT-style test in many labs"], "Whole blood", "Lavender EDTA or site-specific ESR tube", ["Timing and tube type vary", "Keep tube well mixed", "Verify local ESR method"], "ESR is red cells settling in a timed column."),
+    card("retic", "Retic", "Reticulocyte Count", "reh-tik-yoo-lo-site count", "Hematology", "#2563eb", ["young", "rbc", "marrow", "count"], "A count of young red blood cells recently released from marrow.", ["Evaluate marrow response", "Work up anemia patterns", "Monitor recovery after blood loss", "Often reviewed with CBC results"], "Whole blood", "Lavender EDTA tube", ["Route to hematology", "Avoid clotted samples", "May require fresh specimen timing"], "Retic means young RBCs reporting for duty."),
+    card("bmp", "BMP", "Basic Metabolic Panel", "bee-em-pee", "Chemistry", "#059669", ["chem", "kidney", "salt", "tube"], "A chemistry panel for electrolytes, glucose, kidney markers, and calcium.", ["Check electrolyte balance", "Assess kidney function markers", "Monitor glucose", "Common emergency and inpatient panel"], "Serum or plasma", "Gold/SST, mint green PST, or local chemistry tube", ["Route to chemistry", "Centrifuge serum/plasma as required", "Watch hemolysis for potassium impact"], "BMP is the basic chemistry snapshot."),
+    card("cmp", "CMP", "Comprehensive Metabolic Panel", "see-em-pee", "Chemistry", "#059669", ["liver", "kidney", "salt", "chem"], "A broader chemistry panel that includes BMP-style tests plus liver proteins and enzymes.", ["Review kidney and electrolyte status", "Screen liver-related markers", "Check protein and albumin", "Common wellness and inpatient panel"], "Serum or plasma", "Gold/SST, mint green PST, or local chemistry tube", ["Route to chemistry", "Separate serum/plasma on time", "Verify local tube preference"], "CMP is BMP plus a liver-and-protein view."),
+    card("magnesium", "Mg", "Magnesium", "mag-nee-zee-um", "Chemistry", "#059669", ["mg", "heart", "muscle", "chem"], "A chemistry test measuring magnesium level in blood.", ["Evaluate abnormal electrolytes", "Monitor replacement therapy", "Assess rhythm or muscle concerns", "Often ordered with BMP or Phos"], "Serum or plasma", "Gold/SST, mint green PST, or local chemistry tube", ["Route to chemistry", "Avoid hemolysis when possible", "Check add-on stability locally"], "Mg helps muscles and rhythms stay steady."),
+    card("phosphorus", "Phos", "Phosphorus", "foss-for-us", "Chemistry", "#059669", ["phos", "bone", "kidney", "chem"], "A chemistry test measuring phosphorus in blood.", ["Evaluate kidney-related mineral balance", "Monitor nutrition or replacement", "Review bone/mineral concerns", "Often paired with calcium and magnesium"], "Serum or plasma", "Gold/SST, mint green PST, or local chemistry tube", ["Route to chemistry", "Separate per local timing", "Confirm tube and stability for add-ons"], "Phos pairs with calcium in the mineral balance story."),
+    card("lipid-panel", "Lipid Panel", "Lipid Panel", "lip-id panel", "Chemistry", "#059669", ["fat", "heart", "tube", "panel"], "A chemistry panel measuring cholesterol and triglyceride-related values.", ["Assess cardiovascular risk markers", "Monitor lipid therapy", "Screen cholesterol patterns", "May have fasting rules by site"], "Serum or plasma", "Gold/SST, mint green PST, or local chemistry tube", ["Ask about fasting only if local policy requires", "Route to chemistry", "Separate sample as required"], "Lipids are the blood fat family."),
+    card("hba1c", "HbA1c", "Hemoglobin A1c", "hee-moh-gloh-bin ay-one-see", "Chemistry", "#059669", ["a1c", "sugar", "rbc", "trend"], "A test reflecting longer-term glucose exposure through hemoglobin glycation.", ["Monitor diabetes care", "Screen glucose control patterns", "Useful because it is not a single moment glucose", "Often ordered with metabolic labs"], "Whole blood", "Lavender EDTA tube", ["Route per local analyzer area", "Mix EDTA tube gently", "Usually not handled like serum chemistry"], "A1c is sugar history attached to hemoglobin."),
+    card("glucose", "Glucose", "Blood Glucose", "gloo-kose", "Chemistry", "#059669", ["sugar", "drop", "chem", "tube"], "A chemistry test measuring blood sugar at the collection time.", ["Screen high or low glucose", "Monitor diabetes care", "Evaluate metabolic symptoms", "Common emergency test"], "Serum or plasma", "Gray, gold/SST, or green tube depending on site", ["Tube choice varies by workflow", "Process promptly when required", "Route to chemistry or point-of-care area"], "Glucose is the current sugar snapshot."),
+    card("lactate", "Lactate", "Lactic Acid", "lack-tate", "Chemistry", "#059669", ["stat", "ice", "tube", "acid"], "A time-sensitive chemistry test associated with tissue oxygen and illness stress patterns.", ["Evaluate possible sepsis or shock", "Monitor critical illness trends", "Assess poor perfusion concerns", "Often handled as urgent"], "Plasma or whole blood", "Gray or green tube, site-specific", ["STAT handling is common", "Transport quickly per policy", "Ice rules vary by analyzer and site"], "Lactate likes speed: collect, route, process."),
+    card("pt-inr", "PT/INR", "Prothrombin Time / International Normalized Ratio", "pro-throm-bin time, eye-en-are", "Coagulation", "#7c3aed", ["blue", "clot", "timer", "ratio"], "A coagulation test that evaluates part of the clotting pathway.", ["Monitor warfarin therapy", "Screen clotting factor issues", "Check bleeding risk before procedures", "Often ordered with aPTT"], "Citrated plasma", "Light blue sodium citrate tube", ["Fill blue tube to mark", "Mix gently", "Check clots and proper ratio"], "PT/INR needs the blue tube filled right."),
+    card("aptt", "aPTT", "Activated Partial Thromboplastin Time", "ay-pee-tee-tee", "Coagulation", "#7c3aed", ["blue", "heparin", "clot", "timer"], "A coagulation test that evaluates another part of the clotting pathway.", ["Monitor unfractionated heparin", "Screen clotting pathway issues", "Investigate bleeding concerns", "Often paired with PT/INR"], "Citrated plasma", "Light blue sodium citrate tube", ["Correct fill is critical", "Avoid clots", "Route quickly if STAT"], "aPTT is the heparin-watch clot timer."),
+    card("d-dimer", "D-dimer", "D-dimer", "dee-dye-mer", "Coagulation", "#7c3aed", ["blue", "clot", "break", "stat"], "A coagulation test related to clot breakdown products.", ["Evaluate clot-related concerns", "Support emergency rule-out workflows", "Assess DIC-related patterns", "Often ordered urgently"], "Citrated plasma", "Light blue sodium citrate tube", ["Fill blue tube correctly", "STAT routing may apply", "Check local rejection rules"], "D-dimer points to clot breakdown debris."),
+    card("fibrinogen", "Fibrinogen", "Fibrinogen", "fye-brin-oh-jen", "Coagulation", "#7c3aed", ["blue", "fiber", "clot", "factor"], "A coagulation test measuring fibrinogen, a protein needed for clot formation.", ["Assess bleeding or clotting disorders", "Evaluate DIC-related concerns", "Monitor major bleeding workflows", "Often ordered with other coag tests"], "Citrated plasma", "Light blue sodium citrate tube", ["Correct fill matters", "Avoid clotted specimens", "Route to coagulation"], "Fibrinogen is the fiber-maker for clots."),
+    card("troponin", "Troponin", "Cardiac Troponin", "troh-poh-nin", "Cardiac", "#dc2626", ["heart", "stat", "tube", "trend"], "A cardiac marker commonly used in chest pain and heart injury evaluations.", ["Evaluate possible heart injury", "Trend changes over time", "Support emergency chest pain workflows", "Often handled STAT"], "Serum or plasma", "Gold/SST or green tube depending on analyzer", ["Route quickly for STAT orders", "Tube type varies by platform", "Repeat timing is ordered by provider"], "Troponin is the heart-injury marker to move fast."),
+    card("bnp", "BNP", "B-type Natriuretic Peptide", "bee-en-pee", "Cardiac", "#dc2626", ["heart", "fluid", "tube", "peptide"], "A cardiac-related marker often used when fluid overload or heart failure is being evaluated.", ["Assess shortness of breath workups", "Support heart failure evaluation", "Monitor cardiac-related fluid status", "Often ordered from ED or inpatient areas"], "Plasma or serum", "Lavender, green, or SST depending on platform", ["Verify analyzer tube type", "Route to chemistry or immunoassay area", "Check local stability rules"], "BNP is the heart's fluid-stress signal."),
+    card("urinalysis", "UA", "Urinalysis", "you-ay", "Urinalysis", "#0891b2", ["urine", "cup", "strip", "scope"], "A urine test that checks physical, chemical, and microscopic findings.", ["Screen urinary tract concerns", "Check kidney or metabolic clues", "Evaluate pregnancy or pre-op workflows when paired with other tests", "Common ED and outpatient test"], "Urine", "Clean urine cup or preservative tube per site", ["Label and cap container well", "Process promptly or preserve", "Microscopy rules vary by site"], "UA reads the urine story from strip to scope."),
+    card("urine-pregnancy", "Urine hCG", "Urine Pregnancy Test", "you-rin aych-see-gee", "Urinalysis", "#0891b2", ["hcg", "urine", "baby", "rapid"], "A urine test that detects hCG associated with pregnancy.", ["Screen pregnancy status", "Pre-procedure or medication workflows", "Evaluate missed period concerns", "Often rapid or point-of-care"], "Urine", "Clean urine cup", ["Route per local POCT or lab process", "Avoid unlabeled cups", "Check minimum volume"], "hCG is the pregnancy signal in urine."),
+    card("blood-culture", "Blood Culture", "Blood Culture", "blud kul-chur", "Microbiology", "#ea580c", ["bottle", "blood", "germ", "time"], "A microbiology test that looks for organisms growing from blood culture bottles.", ["Evaluate bloodstream infection", "Support fever or sepsis workups", "Guide organism identification workflow", "Usually collected before antibiotics when ordered"], "Blood", "Aerobic and anaerobic culture bottles", ["Strict collection order and antisepsis matter", "Do not refrigerate unless policy says", "Route promptly to microbiology"], "Blood cultures need clean collection and fast incubation."),
+    card("urine-culture", "Urine Culture", "Urine Culture", "you-rin kul-chur", "Microbiology", "#ea580c", ["urine", "plate", "germ", "cup"], "A microbiology test that checks urine for bacterial growth.", ["Evaluate possible urinary infection", "Identify organism growth", "Support susceptibility workflow if positive", "Often paired with urinalysis"], "Urine", "Sterile cup or preservative urine tube", ["Clean-catch quality matters", "Preserve or refrigerate per policy", "Route to microbiology"], "Culture asks: what grows from this urine?"),
+    card("wound-culture", "Wound Culture", "Wound Culture", "woond kul-chur", "Microbiology", "#ea580c", ["swab", "wound", "plate", "germ"], "A microbiology test that checks wound material for organism growth.", ["Evaluate infected wound concerns", "Identify possible organisms", "Support susceptibility workflow if indicated", "Guide provider follow-up"], "Wound swab, tissue, or aspirate", "Culture swab transport or sterile container", ["Specimen quality matters", "Aspirate or tissue may be preferred", "Route to microbiology"], "Better wound specimens give better culture answers."),
+    card("throat-culture", "Throat Culture", "Throat Culture", "throte kul-chur", "Microbiology", "#ea580c", ["swab", "throat", "plate", "strep"], "A microbiology test that checks throat swabs for specific organism growth.", ["Evaluate strep or throat infection concerns", "Confirm rapid-test follow-up when ordered", "Support organism identification", "Common outpatient or ED test"], "Throat swab", "Culture swab transport", ["Use correct swab transport", "Label source clearly", "Route to microbiology"], "Throat culture grows the answer from the swab."),
+]
+
+
+def main() -> None:
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    for item in CARDS:
+        (DATA_DIR / f"{item['slug']}.json").write_text(json.dumps(item, indent=2) + "\n", encoding="utf-8")
+    print(f"seeded {len(CARDS)} common lab tests")
+
+
+if __name__ == "__main__":
+    main()

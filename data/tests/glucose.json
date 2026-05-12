@@ -1,0 +1,30 @@
+{
+  "slug": "glucose",
+  "short_name": "Glucose",
+  "full_name": "Blood Glucose",
+  "pronunciation": "gloo-kose",
+  "category": "Chemistry",
+  "accent": "#059669",
+  "icons": [
+    "sugar",
+    "drop",
+    "chem",
+    "tube"
+  ],
+  "what_it_is": "A chemistry test measuring blood sugar at the collection time.",
+  "why_ordered": [
+    "Screen high or low glucose",
+    "Monitor diabetes care",
+    "Evaluate metabolic symptoms",
+    "Common emergency test"
+  ],
+  "specimen": "Serum or plasma",
+  "container": "Gray, gold/SST, or green tube depending on site",
+  "helper_cues": [
+    "Tube choice varies by workflow",
+    "Process promptly when required",
+    "Route to chemistry or point-of-care area"
+  ],
+  "memory_hook": "Glucose is the current sugar snapshot.",
+  "updated": "2026-05-12"
+}

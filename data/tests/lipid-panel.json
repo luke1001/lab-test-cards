@@ -1,0 +1,30 @@
+{
+  "slug": "lipid-panel",
+  "short_name": "Lipid Panel",
+  "full_name": "Lipid Panel",
+  "pronunciation": "lip-id panel",
+  "category": "Chemistry",
+  "accent": "#059669",
+  "icons": [
+    "fat",
+    "heart",
+    "tube",
+    "panel"
+  ],
+  "what_it_is": "A chemistry panel measuring cholesterol and triglyceride-related values.",
+  "why_ordered": [
+    "Assess cardiovascular risk markers",
+    "Monitor lipid therapy",
+    "Screen cholesterol patterns",
+    "May have fasting rules by site"
+  ],
+  "specimen": "Serum or plasma",
+  "container": "Gold/SST, mint green PST, or local chemistry tube",
+  "helper_cues": [
+    "Ask about fasting only if local policy requires",
+    "Route to chemistry",
+    "Separate sample as required"
+  ],
+  "memory_hook": "Lipids are the blood fat family.",
+  "updated": "2026-05-12"
+}

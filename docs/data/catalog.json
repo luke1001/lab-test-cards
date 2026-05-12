@@ -1,0 +1,209 @@
+[
+  {
+    "slug": "cbc",
+    "short_name": "CBC",
+    "full_name": "Complete Blood Count",
+    "category": "Hematology",
+    "updated": "2026-05-12",
+    "url": "tests/cbc.html",
+    "card": "cards/cbc.svg"
+  },
+  {
+    "slug": "esr",
+    "short_name": "ESR",
+    "full_name": "Erythrocyte Sedimentation Rate",
+    "category": "Hematology",
+    "updated": "2026-05-12",
+    "url": "tests/esr.html",
+    "card": "cards/esr.svg"
+  },
+  {
+    "slug": "retic",
+    "short_name": "Retic",
+    "full_name": "Reticulocyte Count",
+    "category": "Hematology",
+    "updated": "2026-05-12",
+    "url": "tests/retic.html",
+    "card": "cards/retic.svg"
+  },
+  {
+    "slug": "bmp",
+    "short_name": "BMP",
+    "full_name": "Basic Metabolic Panel",
+    "category": "Chemistry",
+    "updated": "2026-05-12",
+    "url": "tests/bmp.html",
+    "card": "cards/bmp.svg"
+  },
+  {
+    "slug": "cmp",
+    "short_name": "CMP",
+    "full_name": "Comprehensive Metabolic Panel",
+    "category": "Chemistry",
+    "updated": "2026-05-12",
+    "url": "tests/cmp.html",
+    "card": "cards/cmp.svg"
+  },
+  {
+    "slug": "glucose",
+    "short_name": "Glucose",
+    "full_name": "Blood Glucose",
+    "category": "Chemistry",
+    "updated": "2026-05-12",
+    "url": "tests/glucose.html",
+    "card": "cards/glucose.svg"
+  },
+  {
+    "slug": "hba1c",
+    "short_name": "HbA1c",
+    "full_name": "Hemoglobin A1c",
+    "category": "Chemistry",
+    "updated": "2026-05-12",
+    "url": "tests/hba1c.html",
+    "card": "cards/hba1c.svg"
+  },
+  {
+    "slug": "lactate",
+    "short_name": "Lactate",
+    "full_name": "Lactic Acid",
+    "category": "Chemistry",
+    "updated": "2026-05-12",
+    "url": "tests/lactate.html",
+    "card": "cards/lactate.svg"
+  },
+  {
+    "slug": "lipid-panel",
+    "short_name": "Lipid Panel",
+    "full_name": "Lipid Panel",
+    "category": "Chemistry",
+    "updated": "2026-05-12",
+    "url": "tests/lipid-panel.html",
+    "card": "cards/lipid-panel.svg"
+  },
+  {
+    "slug": "magnesium",
+    "short_name": "Mg",
+    "full_name": "Magnesium",
+    "category": "Chemistry",
+    "updated": "2026-05-12",
+    "url": "tests/magnesium.html",
+    "card": "cards/magnesium.svg"
+  },
+  {
+    "slug": "phosphorus",
+    "short_name": "Phos",
+    "full_name": "Phosphorus",
+    "category": "Chemistry",
+    "updated": "2026-05-12",
+    "url": "tests/phosphorus.html",
+    "card": "cards/phosphorus.svg"
+  },
+  {
+    "slug": "aptt",
+    "short_name": "aPTT",
+    "full_name": "Activated Partial Thromboplastin Time",
+    "category": "Coagulation",
+    "updated": "2026-05-12",
+    "url": "tests/aptt.html",
+    "card": "cards/aptt.svg"
+  },
+  {
+    "slug": "d-dimer",
+    "short_name": "D-dimer",
+    "full_name": "D-dimer",
+    "category": "Coagulation",
+    "updated": "2026-05-12",
+    "url": "tests/d-dimer.html",
+    "card": "cards/d-dimer.svg"
+  },
+  {
+    "slug": "fibrinogen",
+    "short_name": "Fibrinogen",
+    "full_name": "Fibrinogen",
+    "category": "Coagulation",
+    "updated": "2026-05-12",
+    "url": "tests/fibrinogen.html",
+    "card": "cards/fibrinogen.svg"
+  },
+  {
+    "slug": "pt-inr",
+    "short_name": "PT/INR",
+    "full_name": "Prothrombin Time / International Normalized Ratio",
+    "category": "Coagulation",
+    "updated": "2026-05-12",
+    "url": "tests/pt-inr.html",
+    "card": "cards/pt-inr.svg"
+  },
+  {
+    "slug": "bnp",
+    "short_name": "BNP",
+    "full_name": "B-type Natriuretic Peptide",
+    "category": "Cardiac",
+    "updated": "2026-05-12",
+    "url": "tests/bnp.html",
+    "card": "cards/bnp.svg"
+  },
+  {
+    "slug": "troponin",
+    "short_name": "Troponin",
+    "full_name": "Cardiac Troponin",
+    "category": "Cardiac",
+    "updated": "2026-05-12",
+    "url": "tests/troponin.html",
+    "card": "cards/troponin.svg"
+  },
+  {
+    "slug": "urinalysis",
+    "short_name": "UA",
+    "full_name": "Urinalysis",
+    "category": "Urinalysis",
+    "updated": "2026-05-12",
+    "url": "tests/urinalysis.html",
+    "card": "cards/urinalysis.svg"
+  },
+  {
+    "slug": "urine-pregnancy",
+    "short_name": "Urine hCG",
+    "full_name": "Urine Pregnancy Test",
+    "category": "Urinalysis",
+    "updated": "2026-05-12",
+    "url": "tests/urine-pregnancy.html",
+    "card": "cards/urine-pregnancy.svg"
+  },
+  {
+    "slug": "blood-culture",
+    "short_name": "Blood Culture",
+    "full_name": "Blood Culture",
+    "category": "Microbiology",
+    "updated": "2026-05-12",
+    "url": "tests/blood-culture.html",
+    "card": "cards/blood-culture.svg"
+  },
+  {
+    "slug": "throat-culture",
+    "short_name": "Throat Culture",
+    "full_name": "Throat Culture",
+    "category": "Microbiology",
+    "updated": "2026-05-12",
+    "url": "tests/throat-culture.html",
+    "card": "cards/throat-culture.svg"
+  },
+  {
+    "slug": "urine-culture",
+    "short_name": "Urine Culture",
+    "full_name": "Urine Culture",
+    "category": "Microbiology",
+    "updated": "2026-05-12",
+    "url": "tests/urine-culture.html",
+    "card": "cards/urine-culture.svg"
+  },
+  {
+    "slug": "wound-culture",
+    "short_name": "Wound Culture",
+    "full_name": "Wound Culture",
+    "category": "Microbiology",
+    "updated": "2026-05-12",
+    "url": "tests/wound-culture.html",
+    "card": "cards/wound-culture.svg"
+  }
+]

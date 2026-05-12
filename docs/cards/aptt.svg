@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1280" viewBox="0 0 720 1280" role="img" aria-labelledby="title desc">
+  <title id="title">aPTT lab test study card</title>
+  <desc id="desc">A coagulation test that evaluates another part of the clotting pathway.</desc>
+  <rect width="720" height="1280" rx="36" fill="#ffffff"/>
+  <rect x="0" y="0" width="720" height="1280" rx="36" fill="#7c3aed" opacity="0.045"/>
+  <rect x="38" y="38" width="644" height="1204" rx="30" fill="#ffffff" stroke="#d8dee8" stroke-width="3"/>
+  <rect x="38" y="38" width="644" height="122" rx="30" fill="#7c3aed"/>
+  <text x="58" y="104" font-size="48" font-weight="800" fill="#ffffff">aPTT</text>
+  <text x="58" y="144" font-size="24" font-weight="500" fill="#eef6ff">Activated Partial Thromboplastin Time</text>
+  <rect x="508" y="72" width="142" height="42" rx="21" fill="#ffffff" opacity="0.22"/>
+  <text x="532" y="101" font-size="21" font-weight="700" fill="#ffffff">Coagulation</text>
+  <text x="58" y="210" font-size="26" font-weight="700" fill="#111827">Pronounced: ay-pee-tee-tee</text>
+  <circle cx="92" cy="290" r="44" fill="#7c3aed" opacity="0.14"/><text x="62" y="300" font-size="22" font-weight="700" fill="#7c3aed">BLU</text><circle cx="238" cy="290" r="44" fill="#7c3aed" opacity="0.14"/><text x="208" y="300" font-size="22" font-weight="700" fill="#7c3aed">HEP</text><circle cx="384" cy="290" r="44" fill="#7c3aed" opacity="0.14"/><text x="354" y="300" font-size="22" font-weight="700" fill="#7c3aed">CLO</text><circle cx="530" cy="290" r="44" fill="#7c3aed" opacity="0.14"/><text x="500" y="300" font-size="22" font-weight="700" fill="#7c3aed">TIM</text>
+  <text x="58" y="392" font-size="27" font-weight="800" fill="#7c3aed">What it is</text>
+  <text x="58" y="430" font-size="24" font-weight="500" fill="#374151">A coagulation test that evaluates another part</text>
+<text x="58" y="462" font-size="24" font-weight="500" fill="#374151">of the clotting pathway.</text>
+  <text x="58" y="488" font-size="27" font-weight="800" fill="#7c3aed">Why it&#x27;s ordered</text>
+  <circle cx="70" cy="512" r="6" fill="#7c3aed"/>
+<text x="92" y="520" font-size="24" font-weight="500" fill="#374151">Monitor unfractionated heparin</text>
+<circle cx="70" cy="550" r="6" fill="#7c3aed"/>
+<text x="92" y="558" font-size="24" font-weight="500" fill="#374151">Screen clotting pathway issues</text>
+<circle cx="70" cy="588" r="6" fill="#7c3aed"/>
+<text x="92" y="596" font-size="24" font-weight="500" fill="#374151">Investigate bleeding concerns</text>
+<circle cx="70" cy="626" r="6" fill="#7c3aed"/>
+<text x="92" y="634" font-size="24" font-weight="500" fill="#374151">Often paired with PT/INR</text>
+  <text x="58" y="766" font-size="27" font-weight="800" fill="#7c3aed">Common specimen</text>
+  <text x="58" y="805" font-size="24" font-weight="500" fill="#374151">Citrated plasma; common tube/container: Light</text>
+<text x="58" y="837" font-size="24" font-weight="500" fill="#374151">blue sodium citrate tube</text>
+  <text x="58" y="868" font-size="27" font-weight="800" fill="#7c3aed">Lab helper cue</text>
+  <circle cx="70" cy="892" r="6" fill="#7c3aed"/>
+<text x="92" y="900" font-size="24" font-weight="500" fill="#374151">Correct fill is critical</text>
+<circle cx="70" cy="930" r="6" fill="#7c3aed"/>
+<text x="92" y="938" font-size="24" font-weight="500" fill="#374151">Avoid clots</text>
+<circle cx="70" cy="968" r="6" fill="#7c3aed"/>
+<text x="92" y="976" font-size="24" font-weight="500" fill="#374151">Route quickly if STAT</text>
+  <rect x="58" y="1050" width="604" height="96" rx="22" fill="#7c3aed" opacity="0.10"/>
+  <text x="82" y="1084" font-size="24" font-weight="800" fill="#7c3aed">Memory hook</text>
+  <text x="58" y="1098" font-size="25" font-weight="500" fill="#111827">aPTT is the heparin-watch clot timer.</text>
+  <text x="58" y="1204" font-size="20" font-weight="500" fill="#64748b">Quick study card - follow your site&#x27;s specimen policy and tube guide.</text>
+</svg>

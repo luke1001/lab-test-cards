@@ -1,0 +1,30 @@
+{
+  "slug": "bnp",
+  "short_name": "BNP",
+  "full_name": "B-type Natriuretic Peptide",
+  "pronunciation": "bee-en-pee",
+  "category": "Cardiac",
+  "accent": "#dc2626",
+  "icons": [
+    "heart",
+    "fluid",
+    "tube",
+    "peptide"
+  ],
+  "what_it_is": "A cardiac-related marker often used when fluid overload or heart failure is being evaluated.",
+  "why_ordered": [
+    "Assess shortness of breath workups",
+    "Support heart failure evaluation",
+    "Monitor cardiac-related fluid status",
+    "Often ordered from ED or inpatient areas"
+  ],
+  "specimen": "Plasma or serum",
+  "container": "Lavender, green, or SST depending on platform",
+  "helper_cues": [
+    "Verify analyzer tube type",
+    "Route to chemistry or immunoassay area",
+    "Check local stability rules"
+  ],
+  "memory_hook": "BNP is the heart's fluid-stress signal.",
+  "updated": "2026-05-12"
+}

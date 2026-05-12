@@ -1,0 +1,30 @@
+{
+  "slug": "blood-culture",
+  "short_name": "Blood Culture",
+  "full_name": "Blood Culture",
+  "pronunciation": "blud kul-chur",
+  "category": "Microbiology",
+  "accent": "#ea580c",
+  "icons": [
+    "bottle",
+    "blood",
+    "germ",
+    "time"
+  ],
+  "what_it_is": "A microbiology test that looks for organisms growing from blood culture bottles.",
+  "why_ordered": [
+    "Evaluate bloodstream infection",
+    "Support fever or sepsis workups",
+    "Guide organism identification workflow",
+    "Usually collected before antibiotics when ordered"
+  ],
+  "specimen": "Blood",
+  "container": "Aerobic and anaerobic culture bottles",
+  "helper_cues": [
+    "Strict collection order and antisepsis matter",
+    "Do not refrigerate unless policy says",
+    "Route promptly to microbiology"
+  ],
+  "memory_hook": "Blood cultures need clean collection and fast incubation.",
+  "updated": "2026-05-12"
+}

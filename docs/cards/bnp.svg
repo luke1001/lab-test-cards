@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1280" viewBox="0 0 720 1280" role="img" aria-labelledby="title desc">
+  <title id="title">BNP lab test study card</title>
+  <desc id="desc">A cardiac-related marker often used when fluid overload or heart failure is being evaluated.</desc>
+  <rect width="720" height="1280" rx="36" fill="#ffffff"/>
+  <rect x="0" y="0" width="720" height="1280" rx="36" fill="#dc2626" opacity="0.045"/>
+  <rect x="38" y="38" width="644" height="1204" rx="30" fill="#ffffff" stroke="#d8dee8" stroke-width="3"/>
+  <rect x="38" y="38" width="644" height="122" rx="30" fill="#dc2626"/>
+  <text x="58" y="104" font-size="48" font-weight="800" fill="#ffffff">BNP</text>
+  <text x="58" y="144" font-size="24" font-weight="500" fill="#eef6ff">B-type Natriuretic Peptide</text>
+  <rect x="508" y="72" width="142" height="42" rx="21" fill="#ffffff" opacity="0.22"/>
+  <text x="532" y="101" font-size="21" font-weight="700" fill="#ffffff">Cardiac</text>
+  <text x="58" y="210" font-size="26" font-weight="700" fill="#111827">Pronounced: bee-en-pee</text>
+  <circle cx="92" cy="290" r="44" fill="#dc2626" opacity="0.14"/><text x="62" y="300" font-size="22" font-weight="700" fill="#dc2626">HEA</text><circle cx="238" cy="290" r="44" fill="#dc2626" opacity="0.14"/><text x="208" y="300" font-size="22" font-weight="700" fill="#dc2626">FLU</text><circle cx="384" cy="290" r="44" fill="#dc2626" opacity="0.14"/><text x="354" y="300" font-size="22" font-weight="700" fill="#dc2626">TUB</text><circle cx="530" cy="290" r="44" fill="#dc2626" opacity="0.14"/><text x="500" y="300" font-size="22" font-weight="700" fill="#dc2626">PEP</text>
+  <text x="58" y="392" font-size="27" font-weight="800" fill="#dc2626">What it is</text>
+  <text x="58" y="430" font-size="24" font-weight="500" fill="#374151">A cardiac-related marker often used when fluid</text>
+<text x="58" y="462" font-size="24" font-weight="500" fill="#374151">overload or heart failure is being evaluated.</text>
+  <text x="58" y="488" font-size="27" font-weight="800" fill="#dc2626">Why it&#x27;s ordered</text>
+  <circle cx="70" cy="512" r="6" fill="#dc2626"/>
+<text x="92" y="520" font-size="24" font-weight="500" fill="#374151">Assess shortness of breath workups</text>
+<circle cx="70" cy="550" r="6" fill="#dc2626"/>
+<text x="92" y="558" font-size="24" font-weight="500" fill="#374151">Support heart failure evaluation</text>
+<circle cx="70" cy="588" r="6" fill="#dc2626"/>
+<text x="92" y="596" font-size="24" font-weight="500" fill="#374151">Monitor cardiac-related fluid status</text>
+<circle cx="70" cy="626" r="6" fill="#dc2626"/>
+<text x="92" y="634" font-size="24" font-weight="500" fill="#374151">Often ordered from ED or inpatient areas</text>
+  <text x="58" y="766" font-size="27" font-weight="800" fill="#dc2626">Common specimen</text>
+  <text x="58" y="805" font-size="24" font-weight="500" fill="#374151">Plasma or serum; common tube/container:</text>
+<text x="58" y="837" font-size="24" font-weight="500" fill="#374151">Lavender, green, or SST depending on platform</text>
+  <text x="58" y="868" font-size="27" font-weight="800" fill="#dc2626">Lab helper cue</text>
+  <circle cx="70" cy="892" r="6" fill="#dc2626"/>
+<text x="92" y="900" font-size="24" font-weight="500" fill="#374151">Verify analyzer tube type</text>
+<circle cx="70" cy="930" r="6" fill="#dc2626"/>
+<text x="92" y="938" font-size="24" font-weight="500" fill="#374151">Route to chemistry or immunoassay area</text>
+<circle cx="70" cy="968" r="6" fill="#dc2626"/>
+<text x="92" y="976" font-size="24" font-weight="500" fill="#374151">Check local stability rules</text>
+  <rect x="58" y="1050" width="604" height="96" rx="22" fill="#dc2626" opacity="0.10"/>
+  <text x="82" y="1084" font-size="24" font-weight="800" fill="#dc2626">Memory hook</text>
+  <text x="58" y="1098" font-size="25" font-weight="500" fill="#111827">BNP is the heart&#x27;s fluid-stress signal.</text>
+  <text x="58" y="1204" font-size="20" font-weight="500" fill="#64748b">Quick study card - follow your site&#x27;s specimen policy and tube guide.</text>
+</svg>

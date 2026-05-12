@@ -1,0 +1,30 @@
+{
+  "slug": "bmp",
+  "short_name": "BMP",
+  "full_name": "Basic Metabolic Panel",
+  "pronunciation": "bee-em-pee",
+  "category": "Chemistry",
+  "accent": "#059669",
+  "icons": [
+    "chem",
+    "kidney",
+    "salt",
+    "tube"
+  ],
+  "what_it_is": "A chemistry panel for electrolytes, glucose, kidney markers, and calcium.",
+  "why_ordered": [
+    "Check electrolyte balance",
+    "Assess kidney function markers",
+    "Monitor glucose",
+    "Common emergency and inpatient panel"
+  ],
+  "specimen": "Serum or plasma",
+  "container": "Gold/SST, mint green PST, or local chemistry tube",
+  "helper_cues": [
+    "Route to chemistry",
+    "Centrifuge serum/plasma as required",
+    "Watch hemolysis for potassium impact"
+  ],
+  "memory_hook": "BMP is the basic chemistry snapshot.",
+  "updated": "2026-05-12"
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "urinalysis",
+  "short_name": "UA",
+  "full_name": "Urinalysis",
+  "pronunciation": "you-ay",
+  "category": "Urinalysis",
+  "accent": "#0891b2",
+  "icons": [
+    "urine",
+    "cup",
+    "strip",
+    "scope"
+  ],
+  "what_it_is": "A urine test that checks physical, chemical, and microscopic findings.",
+  "why_ordered": [
+    "Screen urinary tract concerns",
+    "Check kidney or metabolic clues",
+    "Evaluate pregnancy or pre-op workflows when paired with other tests",
+    "Common ED and outpatient test"
+  ],
+  "specimen": "Urine",
+  "container": "Clean urine cup or preservative tube per site",
+  "helper_cues": [
+    "Label and cap container well",
+    "Process promptly or preserve",
+    "Microscopy rules vary by site"
+  ],
+  "memory_hook": "UA reads the urine story from strip to scope.",
+  "updated": "2026-05-12"
+}

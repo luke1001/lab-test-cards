@@ -1,0 +1,30 @@
+{
+  "slug": "pt-inr",
+  "short_name": "PT/INR",
+  "full_name": "Prothrombin Time / International Normalized Ratio",
+  "pronunciation": "pro-throm-bin time, eye-en-are",
+  "category": "Coagulation",
+  "accent": "#7c3aed",
+  "icons": [
+    "blue",
+    "clot",
+    "timer",
+    "ratio"
+  ],
+  "what_it_is": "A coagulation test that evaluates part of the clotting pathway.",
+  "why_ordered": [
+    "Monitor warfarin therapy",
+    "Screen clotting factor issues",
+    "Check bleeding risk before procedures",
+    "Often ordered with aPTT"
+  ],
+  "specimen": "Citrated plasma",
+  "container": "Light blue sodium citrate tube",
+  "helper_cues": [
+    "Fill blue tube to mark",
+    "Mix gently",
+    "Check clots and proper ratio"
+  ],
+  "memory_hook": "PT/INR needs the blue tube filled right.",
+  "updated": "2026-05-12"
+}

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1280" viewBox="0 0 720 1280" role="img" aria-labelledby="title desc">
+  <title id="title">CMP lab test study card</title>
+  <desc id="desc">A broader chemistry panel that includes BMP-style tests plus liver proteins and enzymes.</desc>
+  <rect width="720" height="1280" rx="36" fill="#ffffff"/>
+  <rect x="0" y="0" width="720" height="1280" rx="36" fill="#059669" opacity="0.045"/>
+  <rect x="38" y="38" width="644" height="1204" rx="30" fill="#ffffff" stroke="#d8dee8" stroke-width="3"/>
+  <rect x="38" y="38" width="644" height="122" rx="30" fill="#059669"/>
+  <text x="58" y="104" font-size="48" font-weight="800" fill="#ffffff">CMP</text>
+  <text x="58" y="144" font-size="24" font-weight="500" fill="#eef6ff">Comprehensive Metabolic Panel</text>
+  <rect x="508" y="72" width="142" height="42" rx="21" fill="#ffffff" opacity="0.22"/>
+  <text x="532" y="101" font-size="21" font-weight="700" fill="#ffffff">Chemistry</text>
+  <text x="58" y="210" font-size="26" font-weight="700" fill="#111827">Pronounced: see-em-pee</text>
+  <circle cx="92" cy="290" r="44" fill="#059669" opacity="0.14"/><text x="62" y="300" font-size="22" font-weight="700" fill="#059669">LIV</text><circle cx="238" cy="290" r="44" fill="#059669" opacity="0.14"/><text x="208" y="300" font-size="22" font-weight="700" fill="#059669">KID</text><circle cx="384" cy="290" r="44" fill="#059669" opacity="0.14"/><text x="354" y="300" font-size="22" font-weight="700" fill="#059669">SAL</text><circle cx="530" cy="290" r="44" fill="#059669" opacity="0.14"/><text x="500" y="300" font-size="22" font-weight="700" fill="#059669">CHE</text>
+  <text x="58" y="392" font-size="27" font-weight="800" fill="#059669">What it is</text>
+  <text x="58" y="430" font-size="24" font-weight="500" fill="#374151">A broader chemistry panel that includes</text>
+<text x="58" y="462" font-size="24" font-weight="500" fill="#374151">BMP-style tests plus liver proteins and</text>
+<text x="58" y="494" font-size="24" font-weight="500" fill="#374151">enzymes.</text>
+  <text x="58" y="488" font-size="27" font-weight="800" fill="#059669">Why it&#x27;s ordered</text>
+  <circle cx="70" cy="512" r="6" fill="#059669"/>
+<text x="92" y="520" font-size="24" font-weight="500" fill="#374151">Review kidney and electrolyte status</text>
+<circle cx="70" cy="550" r="6" fill="#059669"/>
+<text x="92" y="558" font-size="24" font-weight="500" fill="#374151">Screen liver-related markers</text>
+<circle cx="70" cy="588" r="6" fill="#059669"/>
+<text x="92" y="596" font-size="24" font-weight="500" fill="#374151">Check protein and albumin</text>
+<circle cx="70" cy="626" r="6" fill="#059669"/>
+<text x="92" y="634" font-size="24" font-weight="500" fill="#374151">Common wellness and inpatient panel</text>
+  <text x="58" y="766" font-size="27" font-weight="800" fill="#059669">Common specimen</text>
+  <text x="58" y="805" font-size="24" font-weight="500" fill="#374151">Serum or plasma; common tube/container:</text>
+<text x="58" y="837" font-size="24" font-weight="500" fill="#374151">Gold/SST, mint green PST, or local chemistry</text>
+<text x="58" y="869" font-size="24" font-weight="500" fill="#374151">tube</text>
+  <text x="58" y="868" font-size="27" font-weight="800" fill="#059669">Lab helper cue</text>
+  <circle cx="70" cy="892" r="6" fill="#059669"/>
+<text x="92" y="900" font-size="24" font-weight="500" fill="#374151">Route to chemistry</text>
+<circle cx="70" cy="930" r="6" fill="#059669"/>
+<text x="92" y="938" font-size="24" font-weight="500" fill="#374151">Separate serum/plasma on time</text>
+<circle cx="70" cy="968" r="6" fill="#059669"/>
+<text x="92" y="976" font-size="24" font-weight="500" fill="#374151">Verify local tube preference</text>
+  <rect x="58" y="1050" width="604" height="96" rx="22" fill="#059669" opacity="0.10"/>
+  <text x="82" y="1084" font-size="24" font-weight="800" fill="#059669">Memory hook</text>
+  <text x="58" y="1098" font-size="25" font-weight="500" fill="#111827">CMP is BMP plus a liver-and-protein view.</text>
+  <text x="58" y="1204" font-size="20" font-weight="500" fill="#64748b">Quick study card - follow your site&#x27;s specimen policy and tube guide.</text>
+</svg>

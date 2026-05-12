@@ -1,0 +1,30 @@
+{
+  "slug": "aptt",
+  "short_name": "aPTT",
+  "full_name": "Activated Partial Thromboplastin Time",
+  "pronunciation": "ay-pee-tee-tee",
+  "category": "Coagulation",
+  "accent": "#7c3aed",
+  "icons": [
+    "blue",
+    "heparin",
+    "clot",
+    "timer"
+  ],
+  "what_it_is": "A coagulation test that evaluates another part of the clotting pathway.",
+  "why_ordered": [
+    "Monitor unfractionated heparin",
+    "Screen clotting pathway issues",
+    "Investigate bleeding concerns",
+    "Often paired with PT/INR"
+  ],
+  "specimen": "Citrated plasma",
+  "container": "Light blue sodium citrate tube",
+  "helper_cues": [
+    "Correct fill is critical",
+    "Avoid clots",
+    "Route quickly if STAT"
+  ],
+  "memory_hook": "aPTT is the heparin-watch clot timer.",
+  "updated": "2026-05-12"
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "hba1c",
+  "short_name": "HbA1c",
+  "full_name": "Hemoglobin A1c",
+  "pronunciation": "hee-moh-gloh-bin ay-one-see",
+  "category": "Chemistry",
+  "accent": "#059669",
+  "icons": [
+    "a1c",
+    "sugar",
+    "rbc",
+    "trend"
+  ],
+  "what_it_is": "A test reflecting longer-term glucose exposure through hemoglobin glycation.",
+  "why_ordered": [
+    "Monitor diabetes care",
+    "Screen glucose control patterns",
+    "Useful because it is not a single moment glucose",
+    "Often ordered with metabolic labs"
+  ],
+  "specimen": "Whole blood",
+  "container": "Lavender EDTA tube",
+  "helper_cues": [
+    "Route per local analyzer area",
+    "Mix EDTA tube gently",
+    "Usually not handled like serum chemistry"
+  ],
+  "memory_hook": "A1c is sugar history attached to hemoglobin.",
+  "updated": "2026-05-12"
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "d-dimer",
+  "short_name": "D-dimer",
+  "full_name": "D-dimer",
+  "pronunciation": "dee-dye-mer",
+  "category": "Coagulation",
+  "accent": "#7c3aed",
+  "icons": [
+    "blue",
+    "clot",
+    "break",
+    "stat"
+  ],
+  "what_it_is": "A coagulation test related to clot breakdown products.",
+  "why_ordered": [
+    "Evaluate clot-related concerns",
+    "Support emergency rule-out workflows",
+    "Assess DIC-related patterns",
+    "Often ordered urgently"
+  ],
+  "specimen": "Citrated plasma",
+  "container": "Light blue sodium citrate tube",
+  "helper_cues": [
+    "Fill blue tube correctly",
+    "STAT routing may apply",
+    "Check local rejection rules"
+  ],
+  "memory_hook": "D-dimer points to clot breakdown debris.",
+  "updated": "2026-05-12"
+}

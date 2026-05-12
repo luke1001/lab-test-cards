@@ -1,0 +1,30 @@
+{
+  "slug": "urine-pregnancy",
+  "short_name": "Urine hCG",
+  "full_name": "Urine Pregnancy Test",
+  "pronunciation": "you-rin aych-see-gee",
+  "category": "Urinalysis",
+  "accent": "#0891b2",
+  "icons": [
+    "hcg",
+    "urine",
+    "baby",
+    "rapid"
+  ],
+  "what_it_is": "A urine test that detects hCG associated with pregnancy.",
+  "why_ordered": [
+    "Screen pregnancy status",
+    "Pre-procedure or medication workflows",
+    "Evaluate missed period concerns",
+    "Often rapid or point-of-care"
+  ],
+  "specimen": "Urine",
+  "container": "Clean urine cup",
+  "helper_cues": [
+    "Route per local POCT or lab process",
+    "Avoid unlabeled cups",
+    "Check minimum volume"
+  ],
+  "memory_hook": "hCG is the pregnancy signal in urine.",
+  "updated": "2026-05-12"
+}

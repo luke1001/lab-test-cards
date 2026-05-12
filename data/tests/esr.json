@@ -1,0 +1,30 @@
+{
+  "slug": "esr",
+  "short_name": "ESR",
+  "full_name": "Erythrocyte Sedimentation Rate",
+  "pronunciation": "ee-rith-ro-site sed-ih-men-tay-shun rate",
+  "category": "Hematology",
+  "accent": "#2563eb",
+  "icons": [
+    "rack",
+    "timer",
+    "red",
+    "rate"
+  ],
+  "what_it_is": "A timed test that measures how quickly red cells settle.",
+  "why_ordered": [
+    "Screen for inflammation patterns",
+    "Follow chronic inflammatory conditions",
+    "Often paired with CRP",
+    "Not a STAT-style test in many labs"
+  ],
+  "specimen": "Whole blood",
+  "container": "Lavender EDTA or site-specific ESR tube",
+  "helper_cues": [
+    "Timing and tube type vary",
+    "Keep tube well mixed",
+    "Verify local ESR method"
+  ],
+  "memory_hook": "ESR is red cells settling in a timed column.",
+  "updated": "2026-05-12"
+}

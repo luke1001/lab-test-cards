@@ -1,0 +1,30 @@
+{
+  "slug": "phosphorus",
+  "short_name": "Phos",
+  "full_name": "Phosphorus",
+  "pronunciation": "foss-for-us",
+  "category": "Chemistry",
+  "accent": "#059669",
+  "icons": [
+    "phos",
+    "bone",
+    "kidney",
+    "chem"
+  ],
+  "what_it_is": "A chemistry test measuring phosphorus in blood.",
+  "why_ordered": [
+    "Evaluate kidney-related mineral balance",
+    "Monitor nutrition or replacement",
+    "Review bone/mineral concerns",
+    "Often paired with calcium and magnesium"
+  ],
+  "specimen": "Serum or plasma",
+  "container": "Gold/SST, mint green PST, or local chemistry tube",
+  "helper_cues": [
+    "Route to chemistry",
+    "Separate per local timing",
+    "Confirm tube and stability for add-ons"
+  ],
+  "memory_hook": "Phos pairs with calcium in the mineral balance story.",
+  "updated": "2026-05-12"
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "troponin",
+  "short_name": "Troponin",
+  "full_name": "Cardiac Troponin",
+  "pronunciation": "troh-poh-nin",
+  "category": "Cardiac",
+  "accent": "#dc2626",
+  "icons": [
+    "heart",
+    "stat",
+    "tube",
+    "trend"
+  ],
+  "what_it_is": "A cardiac marker commonly used in chest pain and heart injury evaluations.",
+  "why_ordered": [
+    "Evaluate possible heart injury",
+    "Trend changes over time",
+    "Support emergency chest pain workflows",
+    "Often handled STAT"
+  ],
+  "specimen": "Serum or plasma",
+  "container": "Gold/SST or green tube depending on analyzer",
+  "helper_cues": [
+    "Route quickly for STAT orders",
+    "Tube type varies by platform",
+    "Repeat timing is ordered by provider"
+  ],
+  "memory_hook": "Troponin is the heart-injury marker to move fast.",
+  "updated": "2026-05-12"
+}

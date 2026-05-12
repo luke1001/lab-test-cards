@@ -1,0 +1,30 @@
+{
+  "slug": "cbc",
+  "short_name": "CBC",
+  "full_name": "Complete Blood Count",
+  "pronunciation": "see-bee-see",
+  "category": "Hematology",
+  "accent": "#2563eb",
+  "icons": [
+    "cells",
+    "tube",
+    "diff",
+    "count"
+  ],
+  "what_it_is": "A common hematology test that counts major blood cell groups.",
+  "why_ordered": [
+    "Screen anemia or infection clues",
+    "Check platelets before procedures",
+    "Monitor blood loss or therapy",
+    "Often ordered with a differential"
+  ],
+  "specimen": "Whole blood",
+  "container": "Lavender EDTA tube",
+  "helper_cues": [
+    "Mix EDTA tubes gently",
+    "Route to hematology",
+    "Watch for clots or short draws"
+  ],
+  "memory_hook": "CBC counts the cells that carry, fight, and clot.",
+  "updated": "2026-05-12"
+}
