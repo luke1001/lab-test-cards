@@ -63,6 +63,15 @@
     "card": "cards/hba1c.svg"
   },
   {
+    "slug": "hepfa",
+    "short_name": "HEPFA",
+    "full_name": "Hepatic Function Panel",
+    "category": "Chemistry",
+    "updated": "2026-05-12",
+    "url": "tests/hepfa.html",
+    "card": "cards/hepfa.svg"
+  },
+  {
     "slug": "lactate",
     "short_name": "Lactate",
     "full_name": "Lactic Acid",

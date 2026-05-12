@@ -1,0 +1,30 @@
+{
+  "slug": "hepfa",
+  "short_name": "HEPFA",
+  "full_name": "Hepatic Function Panel",
+  "pronunciation": "heh-pat-ik funk-shun panel",
+  "category": "Chemistry",
+  "accent": "#059669",
+  "icons": [
+    "liver",
+    "chem",
+    "tube",
+    "panel"
+  ],
+  "what_it_is": "A chemistry panel that groups common liver-related enzymes, bilirubin, and protein markers.",
+  "why_ordered": [
+    "Screen liver-related marker patterns",
+    "Monitor known liver or bile duct concerns",
+    "Review medication or illness effects",
+    "Often ordered with BMP or CMP"
+  ],
+  "specimen": "Serum or plasma",
+  "container": "Gold/SST, mint green PST, or local chemistry tube",
+  "helper_cues": [
+    "Route to chemistry",
+    "Separate serum or plasma as required",
+    "Hemolysis or icterus checks may matter by analyzer"
+  ],
+  "memory_hook": "HEPFA is the focused liver chemistry snapshot.",
+  "updated": "2026-05-12"
+}
