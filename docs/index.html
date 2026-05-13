@@ -119,19 +119,25 @@
   <span>Wound Culture</span>
 </a>
   </section>
+  <p id="empty-state" class="empty-state" hidden>No matching lab tests. Try a shorter search or another category.</p>
 </main>
 <script>
 const search = document.querySelector('#search');
 const filters = [...document.querySelectorAll('.filter')];
 const tiles = [...document.querySelectorAll('.test-tile')];
+const emptyState = document.querySelector('#empty-state');
 let active = 'all';
 function applyFilters() {
   const query = search.value.trim().toLowerCase();
+  let visible = 0;
   tiles.forEach(tile => {
     const categoryMatch = active === 'all' || tile.dataset.category === active;
     const searchMatch = !query || tile.dataset.search.includes(query);
-    tile.hidden = !(categoryMatch && searchMatch);
+    const shouldShow = categoryMatch && searchMatch;
+    tile.hidden = !shouldShow;
+    if (shouldShow) visible += 1;
   });
+  emptyState.hidden = visible !== 0;
 }
 search.addEventListener('input', applyFilters);
 filters.forEach(button => button.addEventListener('click', () => {

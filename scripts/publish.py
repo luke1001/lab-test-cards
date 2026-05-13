@@ -21,10 +21,10 @@ def main() -> None:
         allowed = all(
             line[0:2] in {"??", " M", "M ", "A ", "AM", "MM"}
             and (
-                line[3:].startswith("data/")
-                or line[3:].startswith("docs/")
-                or line[3:].startswith("scripts/")
-                or line[3:] in {".gitignore", "README.md"}
+                line[2:].strip().startswith("data/")
+                or line[2:].strip().startswith("docs/")
+                or line[2:].strip().startswith("scripts/")
+                or line[2:].strip() in {".gitignore", "README.md"}
             )
             for line in status.splitlines()
         )

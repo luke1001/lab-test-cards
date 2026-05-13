@@ -72,6 +72,27 @@ def main() -> None:
     for slug in slugs:
         if f"tests/{slug}.html" not in index_text:
             fail(f"index missing {slug}")
+    if 'name="viewport" content="width=device-width, initial-scale=1"' not in index_text:
+        fail("index missing responsive viewport meta tag")
+    if 'id="empty-state"' not in index_text:
+        fail("index missing search empty state")
+
+    css = (DOCS_DIR / "assets" / "site.css").read_text(encoding="utf-8")
+    responsive_checks = (
+        "@media (max-width: 760px)",
+        "@media (max-width: 420px)",
+        "repeat(auto-fit, minmax(min(100%, 220px), 1fr))",
+        "overflow-x: hidden",
+        "overflow-wrap: anywhere",
+        "touch-action: manipulation",
+    )
+    for check in responsive_checks:
+        if check not in css:
+            fail(f"site css missing responsive rule: {check}")
+
+    sample_page = (DOCS_DIR / "tests" / f"{next(iter(slugs))}.html").read_text(encoding="utf-8")
+    if 'name="viewport" content="width=device-width, initial-scale=1"' not in sample_page:
+        fail("test pages missing responsive viewport meta tag")
     print(f"validated {len(slugs)} lab test cards")
 
 
