@@ -108,6 +108,15 @@
     "card": "cards/phosphorus.svg"
   },
   {
+    "slug": "tch",
+    "short_name": "TCH",
+    "full_name": "Total Cholesterol",
+    "category": "Chemistry",
+    "updated": "2026-05-12",
+    "url": "tests/tch.html",
+    "card": "cards/tch.svg"
+  },
+  {
     "slug": "aptt",
     "short_name": "aPTT",
     "full_name": "Activated Partial Thromboplastin Time",

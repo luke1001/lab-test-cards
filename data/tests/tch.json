@@ -1,0 +1,30 @@
+{
+  "slug": "tch",
+  "short_name": "TCH",
+  "full_name": "Total Cholesterol",
+  "pronunciation": "toh-tuhl koh-less-ter-awl",
+  "category": "Chemistry",
+  "accent": "#059669",
+  "icons": [
+    "lipid",
+    "heart",
+    "chem",
+    "tube"
+  ],
+  "what_it_is": "A chemistry test measuring the total cholesterol amount in blood.",
+  "why_ordered": [
+    "Screen cardiovascular risk markers",
+    "Part of lipid testing",
+    "Monitor cholesterol trends",
+    "May be ordered alone or in a panel"
+  ],
+  "specimen": "Serum or plasma",
+  "container": "Gold/SST, mint green PST, or local chemistry tube; verify local policy",
+  "helper_cues": [
+    "Route to chemistry",
+    "Check if fasting instructions apply locally",
+    "Separate serum or plasma as required"
+  ],
+  "memory_hook": "TCH is the total cholesterol number.",
+  "updated": "2026-05-12"
+}
