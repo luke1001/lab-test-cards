@@ -12,139 +12,185 @@
   <section class="index-hero">
     <p class="eyebrow">Hospital lab assistant study cards</p>
     <h1>Lab Test Cards</h1>
-    <p>Quick recognition, specimen cues, routing awareness, and memory hooks for common main-lab tests.</p>
-    <input id="search" type="search" placeholder="Search CBC, troponin, urine culture..." aria-label="Search lab tests">
-    <div class="filters" aria-label="Category filters"><button class="filter active" data-category="all">All</button><button class="filter" data-category="Hematology">Hematology</button><button class="filter" data-category="Chemistry">Chemistry</button><button class="filter" data-category="Coagulation">Coagulation</button><button class="filter" data-category="Cardiac">Cardiac</button><button class="filter" data-category="Urinalysis">Urinalysis</button><button class="filter" data-category="Microbiology">Microbiology</button></div>
+    <p>Fast alphabetical access to common main-lab tests, specimen cues, routing awareness, and memory hooks.</p>
+    <nav class="alpha-nav" aria-label="Alphabetical lab test index"><a href="#letter-a">A</a><a href="#letter-b">B</a><a href="#letter-c">C</a><a href="#letter-d">D</a><a href="#letter-e">E</a><a href="#letter-f">F</a><a href="#letter-g">G</a><a href="#letter-h">H</a><a href="#letter-l">L</a><a href="#letter-m">M</a><a href="#letter-p">P</a><a href="#letter-r">R</a><a href="#letter-t">T</a><a href="#letter-u">U</a><a href="#letter-w">W</a></nav>
   </section>
-  <section class="test-grid" aria-label="Common lab tests">
-    <a class="test-tile" href="tests/cbc.html" data-category="Hematology" data-search="cbc complete blood count hematology">
-  <span class="tile-badge" style="--accent:#2563eb">Hematology</span>
-  <strong>CBC</strong>
-  <span>Complete Blood Count</span>
-</a><a class="test-tile" href="tests/esr.html" data-category="Hematology" data-search="esr erythrocyte sedimentation rate hematology">
-  <span class="tile-badge" style="--accent:#2563eb">Hematology</span>
-  <strong>ESR</strong>
-  <span>Erythrocyte Sedimentation Rate</span>
-</a><a class="test-tile" href="tests/retic.html" data-category="Hematology" data-search="retic reticulocyte count hematology">
-  <span class="tile-badge" style="--accent:#2563eb">Hematology</span>
-  <strong>Retic</strong>
-  <span>Reticulocyte Count</span>
-</a><a class="test-tile" href="tests/bmp.html" data-category="Chemistry" data-search="bmp basic metabolic panel chemistry">
-  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
-  <strong>BMP</strong>
-  <span>Basic Metabolic Panel</span>
-</a><a class="test-tile" href="tests/cmp.html" data-category="Chemistry" data-search="cmp comprehensive metabolic panel chemistry">
-  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
-  <strong>CMP</strong>
-  <span>Comprehensive Metabolic Panel</span>
-</a><a class="test-tile" href="tests/glucose.html" data-category="Chemistry" data-search="glucose blood glucose chemistry">
-  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
-  <strong>Glucose</strong>
-  <span>Blood Glucose</span>
-</a><a class="test-tile" href="tests/hba1c.html" data-category="Chemistry" data-search="hba1c hemoglobin a1c chemistry">
-  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
-  <strong>HbA1c</strong>
-  <span>Hemoglobin A1c</span>
-</a><a class="test-tile" href="tests/hepfa.html" data-category="Chemistry" data-search="hepfa hepatic function panel chemistry">
-  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
-  <strong>HEPFA</strong>
-  <span>Hepatic Function Panel</span>
-</a><a class="test-tile" href="tests/lactate.html" data-category="Chemistry" data-search="lactate lactic acid chemistry">
-  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
-  <strong>Lactate</strong>
-  <span>Lactic Acid</span>
-</a><a class="test-tile" href="tests/lipid-panel.html" data-category="Chemistry" data-search="lipid panel lipid panel chemistry">
-  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
-  <strong>Lipid Panel</strong>
-  <span>Lipid Panel</span>
-</a><a class="test-tile" href="tests/magnesium.html" data-category="Chemistry" data-search="mg magnesium chemistry">
-  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
-  <strong>Mg</strong>
-  <span>Magnesium</span>
-</a><a class="test-tile" href="tests/phosphorus.html" data-category="Chemistry" data-search="phos phosphorus chemistry">
-  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
-  <strong>Phos</strong>
-  <span>Phosphorus</span>
-</a><a class="test-tile" href="tests/tch.html" data-category="Chemistry" data-search="tch total cholesterol chemistry">
-  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
-  <strong>TCH</strong>
-  <span>Total Cholesterol</span>
-</a><a class="test-tile" href="tests/aptt.html" data-category="Coagulation" data-search="aptt activated partial thromboplastin time coagulation">
+  <section class="alpha-section" id="letter-a" aria-labelledby="heading-a">
+  <h2 id="heading-a">A</h2>
+  <div class="test-grid">
+    <a class="test-tile" href="tests/aptt.html">
   <span class="tile-badge" style="--accent:#7c3aed">Coagulation</span>
   <strong>aPTT</strong>
   <span>Activated Partial Thromboplastin Time</span>
-</a><a class="test-tile" href="tests/d-dimer.html" data-category="Coagulation" data-search="d-dimer d-dimer coagulation">
-  <span class="tile-badge" style="--accent:#7c3aed">Coagulation</span>
-  <strong>D-dimer</strong>
-  <span>D-dimer</span>
-</a><a class="test-tile" href="tests/fibrinogen.html" data-category="Coagulation" data-search="fibrinogen fibrinogen coagulation">
-  <span class="tile-badge" style="--accent:#7c3aed">Coagulation</span>
-  <strong>Fibrinogen</strong>
-  <span>Fibrinogen</span>
-</a><a class="test-tile" href="tests/pt-inr.html" data-category="Coagulation" data-search="pt/inr prothrombin time / international normalized ratio coagulation">
-  <span class="tile-badge" style="--accent:#7c3aed">Coagulation</span>
-  <strong>PT/INR</strong>
-  <span>Prothrombin Time / International Normalized Ratio</span>
-</a><a class="test-tile" href="tests/bnp.html" data-category="Cardiac" data-search="bnp b-type natriuretic peptide cardiac">
-  <span class="tile-badge" style="--accent:#dc2626">Cardiac</span>
-  <strong>BNP</strong>
-  <span>B-type Natriuretic Peptide</span>
-</a><a class="test-tile" href="tests/troponin.html" data-category="Cardiac" data-search="troponin cardiac troponin cardiac">
-  <span class="tile-badge" style="--accent:#dc2626">Cardiac</span>
-  <strong>Troponin</strong>
-  <span>Cardiac Troponin</span>
-</a><a class="test-tile" href="tests/urinalysis.html" data-category="Urinalysis" data-search="ua urinalysis urinalysis">
-  <span class="tile-badge" style="--accent:#0891b2">Urinalysis</span>
-  <strong>UA</strong>
-  <span>Urinalysis</span>
-</a><a class="test-tile" href="tests/urine-pregnancy.html" data-category="Urinalysis" data-search="urine hcg urine pregnancy test urinalysis">
-  <span class="tile-badge" style="--accent:#0891b2">Urinalysis</span>
-  <strong>Urine hCG</strong>
-  <span>Urine Pregnancy Test</span>
-</a><a class="test-tile" href="tests/blood-culture.html" data-category="Microbiology" data-search="blood culture blood culture microbiology">
+</a>
+  </div>
+</section><section class="alpha-section" id="letter-b" aria-labelledby="heading-b">
+  <h2 id="heading-b">B</h2>
+  <div class="test-grid">
+    <a class="test-tile" href="tests/blood-culture.html">
   <span class="tile-badge" style="--accent:#ea580c">Microbiology</span>
   <strong>Blood Culture</strong>
   <span>Blood Culture</span>
-</a><a class="test-tile" href="tests/throat-culture.html" data-category="Microbiology" data-search="throat culture throat culture microbiology">
+</a><a class="test-tile" href="tests/bmp.html">
+  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
+  <strong>BMP</strong>
+  <span>Basic Metabolic Panel</span>
+</a><a class="test-tile" href="tests/bnp.html">
+  <span class="tile-badge" style="--accent:#dc2626">Cardiac</span>
+  <strong>BNP</strong>
+  <span>B-type Natriuretic Peptide</span>
+</a>
+  </div>
+</section><section class="alpha-section" id="letter-c" aria-labelledby="heading-c">
+  <h2 id="heading-c">C</h2>
+  <div class="test-grid">
+    <a class="test-tile" href="tests/cbc.html">
+  <span class="tile-badge" style="--accent:#2563eb">Hematology</span>
+  <strong>CBC</strong>
+  <span>Complete Blood Count</span>
+</a><a class="test-tile" href="tests/cmp.html">
+  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
+  <strong>CMP</strong>
+  <span>Comprehensive Metabolic Panel</span>
+</a>
+  </div>
+</section><section class="alpha-section" id="letter-d" aria-labelledby="heading-d">
+  <h2 id="heading-d">D</h2>
+  <div class="test-grid">
+    <a class="test-tile" href="tests/d-dimer.html">
+  <span class="tile-badge" style="--accent:#7c3aed">Coagulation</span>
+  <strong>D-dimer</strong>
+  <span>D-dimer</span>
+</a>
+  </div>
+</section><section class="alpha-section" id="letter-e" aria-labelledby="heading-e">
+  <h2 id="heading-e">E</h2>
+  <div class="test-grid">
+    <a class="test-tile" href="tests/esr.html">
+  <span class="tile-badge" style="--accent:#2563eb">Hematology</span>
+  <strong>ESR</strong>
+  <span>Erythrocyte Sedimentation Rate</span>
+</a>
+  </div>
+</section><section class="alpha-section" id="letter-f" aria-labelledby="heading-f">
+  <h2 id="heading-f">F</h2>
+  <div class="test-grid">
+    <a class="test-tile" href="tests/fibrinogen.html">
+  <span class="tile-badge" style="--accent:#7c3aed">Coagulation</span>
+  <strong>Fibrinogen</strong>
+  <span>Fibrinogen</span>
+</a>
+  </div>
+</section><section class="alpha-section" id="letter-g" aria-labelledby="heading-g">
+  <h2 id="heading-g">G</h2>
+  <div class="test-grid">
+    <a class="test-tile" href="tests/glucose.html">
+  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
+  <strong>Glucose</strong>
+  <span>Blood Glucose</span>
+</a>
+  </div>
+</section><section class="alpha-section" id="letter-h" aria-labelledby="heading-h">
+  <h2 id="heading-h">H</h2>
+  <div class="test-grid">
+    <a class="test-tile" href="tests/hba1c.html">
+  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
+  <strong>HbA1c</strong>
+  <span>Hemoglobin A1c</span>
+</a><a class="test-tile" href="tests/hepfa.html">
+  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
+  <strong>HEPFA</strong>
+  <span>Hepatic Function Panel</span>
+</a>
+  </div>
+</section><section class="alpha-section" id="letter-l" aria-labelledby="heading-l">
+  <h2 id="heading-l">L</h2>
+  <div class="test-grid">
+    <a class="test-tile" href="tests/lactate.html">
+  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
+  <strong>Lactate</strong>
+  <span>Lactic Acid</span>
+</a><a class="test-tile" href="tests/lipid-panel.html">
+  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
+  <strong>Lipid Panel</strong>
+  <span>Lipid Panel</span>
+</a>
+  </div>
+</section><section class="alpha-section" id="letter-m" aria-labelledby="heading-m">
+  <h2 id="heading-m">M</h2>
+  <div class="test-grid">
+    <a class="test-tile" href="tests/magnesium.html">
+  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
+  <strong>Mg</strong>
+  <span>Magnesium</span>
+</a>
+  </div>
+</section><section class="alpha-section" id="letter-p" aria-labelledby="heading-p">
+  <h2 id="heading-p">P</h2>
+  <div class="test-grid">
+    <a class="test-tile" href="tests/phosphorus.html">
+  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
+  <strong>Phos</strong>
+  <span>Phosphorus</span>
+</a><a class="test-tile" href="tests/pt-inr.html">
+  <span class="tile-badge" style="--accent:#7c3aed">Coagulation</span>
+  <strong>PT/INR</strong>
+  <span>Prothrombin Time / International Normalized Ratio</span>
+</a>
+  </div>
+</section><section class="alpha-section" id="letter-r" aria-labelledby="heading-r">
+  <h2 id="heading-r">R</h2>
+  <div class="test-grid">
+    <a class="test-tile" href="tests/retic.html">
+  <span class="tile-badge" style="--accent:#2563eb">Hematology</span>
+  <strong>Retic</strong>
+  <span>Reticulocyte Count</span>
+</a>
+  </div>
+</section><section class="alpha-section" id="letter-t" aria-labelledby="heading-t">
+  <h2 id="heading-t">T</h2>
+  <div class="test-grid">
+    <a class="test-tile" href="tests/tch.html">
+  <span class="tile-badge" style="--accent:#059669">Chemistry</span>
+  <strong>TCH</strong>
+  <span>Total Cholesterol</span>
+</a><a class="test-tile" href="tests/throat-culture.html">
   <span class="tile-badge" style="--accent:#ea580c">Microbiology</span>
   <strong>Throat Culture</strong>
   <span>Throat Culture</span>
-</a><a class="test-tile" href="tests/urine-culture.html" data-category="Microbiology" data-search="urine culture urine culture microbiology">
+</a><a class="test-tile" href="tests/troponin.html">
+  <span class="tile-badge" style="--accent:#dc2626">Cardiac</span>
+  <strong>Troponin</strong>
+  <span>Cardiac Troponin</span>
+</a>
+  </div>
+</section><section class="alpha-section" id="letter-u" aria-labelledby="heading-u">
+  <h2 id="heading-u">U</h2>
+  <div class="test-grid">
+    <a class="test-tile" href="tests/urinalysis.html">
+  <span class="tile-badge" style="--accent:#0891b2">Urinalysis</span>
+  <strong>UA</strong>
+  <span>Urinalysis</span>
+</a><a class="test-tile" href="tests/urine-culture.html">
   <span class="tile-badge" style="--accent:#ea580c">Microbiology</span>
   <strong>Urine Culture</strong>
   <span>Urine Culture</span>
-</a><a class="test-tile" href="tests/wound-culture.html" data-category="Microbiology" data-search="wound culture wound culture microbiology">
+</a><a class="test-tile" href="tests/urine-pregnancy.html">
+  <span class="tile-badge" style="--accent:#0891b2">Urinalysis</span>
+  <strong>Urine hCG</strong>
+  <span>Urine Pregnancy Test</span>
+</a>
+  </div>
+</section><section class="alpha-section" id="letter-w" aria-labelledby="heading-w">
+  <h2 id="heading-w">W</h2>
+  <div class="test-grid">
+    <a class="test-tile" href="tests/wound-culture.html">
   <span class="tile-badge" style="--accent:#ea580c">Microbiology</span>
   <strong>Wound Culture</strong>
   <span>Wound Culture</span>
 </a>
-  </section>
-  <p id="empty-state" class="empty-state" hidden>No matching lab tests. Try a shorter search or another category.</p>
+  </div>
+</section>
 </main>
-<script>
-const search = document.querySelector('#search');
-const filters = [...document.querySelectorAll('.filter')];
-const tiles = [...document.querySelectorAll('.test-tile')];
-const emptyState = document.querySelector('#empty-state');
-let active = 'all';
-function applyFilters() {
-  const query = search.value.trim().toLowerCase();
-  let visible = 0;
-  tiles.forEach(tile => {
-    const categoryMatch = active === 'all' || tile.dataset.category === active;
-    const searchMatch = !query || tile.dataset.search.includes(query);
-    const shouldShow = categoryMatch && searchMatch;
-    tile.hidden = !shouldShow;
-    if (shouldShow) visible += 1;
-  });
-  emptyState.hidden = visible !== 0;
-}
-search.addEventListener('input', applyFilters);
-filters.forEach(button => button.addEventListener('click', () => {
-  active = button.dataset.category;
-  filters.forEach(item => item.classList.toggle('active', item === button));
-  applyFilters();
-}));
-</script>
 </body>
 </html>

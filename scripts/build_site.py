@@ -210,58 +210,43 @@ def generate_test_page(card: dict) -> str:
 
 
 def generate_index(cards: list[dict]) -> str:
-    categories = sorted({card["category"] for card in cards}, key=lambda c: CATEGORY_ORDER.index(c) if c in CATEGORY_ORDER else 99)
-    buttons = '<button class="filter active" data-category="all">All</button>' + "".join(
-        f'<button class="filter" data-category="{esc(category)}">{esc(category)}</button>' for category in categories
+    alphabetical = sorted(cards, key=lambda item: (item["short_name"].lower(), item["full_name"].lower()))
+    grouped: dict[str, list[dict]] = {}
+    for card in alphabetical:
+        letter = card["short_name"][0].upper()
+        if not letter.isalpha():
+            letter = "#"
+        grouped.setdefault(letter, []).append(card)
+
+    nav_items = "".join(
+        f'<a href="#letter-{esc(letter.lower())}">{esc(letter)}</a>' for letter in grouped
     )
-    items = []
-    for card in cards:
-        items.append(f'''<a class="test-tile" href="tests/{esc(card["slug"])}.html" data-category="{esc(card["category"])}" data-search="{esc((card["short_name"] + " " + card["full_name"] + " " + card["category"]).lower())}">
+    sections = []
+    for letter, letter_cards in grouped.items():
+        items = []
+        for card in letter_cards:
+            items.append(f'''<a class="test-tile" href="tests/{esc(card["slug"])}.html">
   <span class="tile-badge" style="--accent:{esc(card["accent"])}">{esc(card["category"])}</span>
   <strong>{esc(card["short_name"])}</strong>
   <span>{esc(card["full_name"])}</span>
 </a>''')
-    script = '''<script>
-const search = document.querySelector('#search');
-const filters = [...document.querySelectorAll('.filter')];
-const tiles = [...document.querySelectorAll('.test-tile')];
-const emptyState = document.querySelector('#empty-state');
-let active = 'all';
-function applyFilters() {
-  const query = search.value.trim().toLowerCase();
-  let visible = 0;
-  tiles.forEach(tile => {
-    const categoryMatch = active === 'all' || tile.dataset.category === active;
-    const searchMatch = !query || tile.dataset.search.includes(query);
-    const shouldShow = categoryMatch && searchMatch;
-    tile.hidden = !shouldShow;
-    if (shouldShow) visible += 1;
-  });
-  emptyState.hidden = visible !== 0;
-}
-search.addEventListener('input', applyFilters);
-filters.forEach(button => button.addEventListener('click', () => {
-  active = button.dataset.category;
-  filters.forEach(item => item.classList.toggle('active', item === button));
-  applyFilters();
-}));
-</script>'''
+        sections.append(f'''<section class="alpha-section" id="letter-{esc(letter.lower())}" aria-labelledby="heading-{esc(letter.lower())}">
+  <h2 id="heading-{esc(letter.lower())}">{esc(letter)}</h2>
+  <div class="test-grid">
+    {"".join(items)}
+  </div>
+</section>''')
     return page_shell(
         "Lab Test Cards",
         f'''<main class="index-page">
   <section class="index-hero">
     <p class="eyebrow">Hospital lab assistant study cards</p>
     <h1>Lab Test Cards</h1>
-    <p>Quick recognition, specimen cues, routing awareness, and memory hooks for common main-lab tests.</p>
-    <input id="search" type="search" placeholder="Search CBC, troponin, urine culture..." aria-label="Search lab tests">
-    <div class="filters" aria-label="Category filters">{buttons}</div>
+    <p>Fast alphabetical access to common main-lab tests, specimen cues, routing awareness, and memory hooks.</p>
+    <nav class="alpha-nav" aria-label="Alphabetical lab test index">{nav_items}</nav>
   </section>
-  <section class="test-grid" aria-label="Common lab tests">
-    {"".join(items)}
-  </section>
-  <p id="empty-state" class="empty-state" hidden>No matching lab tests. Try a shorter search or another category.</p>
-</main>
-{script}''',
+  {"".join(sections)}
+</main>''',
     )
 
 
@@ -283,18 +268,17 @@ a { color: inherit; }
 .eyebrow { margin: 0 0 8px; color: #2563eb; font-size: 0.82rem; font-weight: 800; letter-spacing: 0; text-transform: uppercase; }
 h1 { margin: 0; font-size: clamp(2.2rem, 8vw, 4.6rem); line-height: 0.98; letter-spacing: 0; overflow-wrap: anywhere; }
 .index-hero p, .subtitle { max-width: 720px; color: #475569; font-size: 1.05rem; line-height: 1.55; }
-#search { width: min(640px, 100%); min-height: 48px; border: 1px solid #cbd5e1; border-radius: 8px; padding: 0 14px; font: inherit; background: #fff; }
-.filters { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
-.filter, .card-link { min-height: 40px; border: 1px solid #cbd5e1; border-radius: 8px; padding: 0 12px; background: #fff; color: #334155; font: inherit; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; text-align: center; }
-.filter { cursor: pointer; touch-action: manipulation; }
-.filter.active { background: #111827; border-color: #111827; color: #fff; }
+.alpha-nav { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 18px; }
+.alpha-nav a, .card-link { min-height: 40px; border: 1px solid #cbd5e1; border-radius: 8px; padding: 0 12px; background: #fff; color: #334155; font: inherit; font-weight: 800; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; text-align: center; touch-action: manipulation; }
+.alpha-nav a:hover, .card-link:hover { border-color: #94a3b8; box-shadow: 0 8px 20px rgba(15, 23, 42, 0.07); }
+.alpha-section { scroll-margin-top: 16px; margin-top: 28px; }
+.alpha-section h2 { margin: 0 0 12px; font-size: 1.4rem; line-height: 1.1; color: #111827; }
 .test-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 12px; }
 .test-tile { min-height: 146px; padding: 16px; border: 1px solid #d8dee8; border-radius: 8px; background: #fff; text-decoration: none; display: flex; flex-direction: column; gap: 10px; overflow-wrap: anywhere; }
 .test-tile:hover { border-color: #94a3b8; box-shadow: 0 12px 28px rgba(15, 23, 42, 0.08); }
 .tile-badge { align-self: flex-start; border-left: 4px solid var(--accent); background: #f8fafc; color: #334155; padding: 5px 8px; border-radius: 6px; font-size: 0.78rem; font-weight: 800; }
 .test-tile strong { font-size: 1.45rem; }
 .test-tile span:last-child { color: #64748b; line-height: 1.35; }
-.empty-state { margin: 18px 0 0; padding: 18px; border: 1px dashed #cbd5e1; border-radius: 8px; background: #fff; color: #475569; font-weight: 700; }
 .topbar { min-height: 42px; display: flex; gap: 12px; align-items: center; justify-content: space-between; border-bottom: 1px solid #d8dee8; color: #475569; font-weight: 800; }
 .topbar span { text-align: right; }
 .test-hero { display: flex; gap: 16px; align-items: end; justify-content: space-between; }
@@ -318,14 +302,14 @@ h1 { margin: 0; font-size: clamp(2.2rem, 8vw, 4.6rem); line-height: 0.98; letter
   .card-link { justify-self: start; }
   .study-card { max-width: 430px; justify-self: center; border-radius: 12px; }
   .study-notes { padding: 18px; }
-  .filters { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .filter { width: 100%; min-height: 44px; }
+  .alpha-nav { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .alpha-nav a { min-height: 44px; padding: 0 8px; }
 }
 @media (max-width: 420px) {
   .index-page, .test-page { width: min(100% - 20px, 1120px); padding-top: 12px; }
   h1 { font-size: clamp(2rem, 14vw, 3rem); }
   .index-hero p, .subtitle { font-size: 1rem; }
-  .filters { grid-template-columns: 1fr; }
+  .alpha-nav { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .test-grid { grid-template-columns: 1fr; }
   .test-tile { min-height: 128px; padding: 14px; }
   .topbar { align-items: flex-start; flex-direction: column; padding-bottom: 10px; }

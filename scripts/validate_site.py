@@ -74,8 +74,14 @@ def main() -> None:
             fail(f"index missing {slug}")
     if 'name="viewport" content="width=device-width, initial-scale=1"' not in index_text:
         fail("index missing responsive viewport meta tag")
-    if 'id="empty-state"' not in index_text:
-        fail("index missing search empty state")
+    if 'class="alpha-nav"' not in index_text:
+        fail("index missing alphabetical navigation")
+    if 'class="alpha-section"' not in index_text:
+        fail("index missing alphabetical sections")
+    forbidden_index = ('id="search"', 'class="filter"', "<script>")
+    for forbidden in forbidden_index:
+        if forbidden in index_text:
+            fail(f"index still contains removed search/filter behavior: {forbidden}")
 
     css = (DOCS_DIR / "assets" / "site.css").read_text(encoding="utf-8")
     responsive_checks = (
@@ -84,6 +90,8 @@ def main() -> None:
         "repeat(auto-fit, minmax(min(100%, 220px), 1fr))",
         "overflow-x: hidden",
         "overflow-wrap: anywhere",
+        ".alpha-nav",
+        ".alpha-section",
         "touch-action: manipulation",
     )
     for check in responsive_checks:
