@@ -1,0 +1,30 @@
+{
+  "slug": "spep",
+  "short_name": "SPEP",
+  "full_name": "Serum Protein Electrophoresis",
+  "pronunciation": "ess-pep",
+  "category": "Chemistry",
+  "accent": "#059669",
+  "icons": [
+    "serum",
+    "bands",
+    "protein",
+    "pattern"
+  ],
+  "what_it_is": "A serum test that separates blood proteins into visible electrophoresis patterns.",
+  "why_ordered": [
+    "Screen for abnormal serum protein patterns",
+    "Evaluate possible monoclonal protein",
+    "Support plasma cell disorder workups",
+    "Often followed by immunofixation testing"
+  ],
+  "specimen": "Serum",
+  "container": "Gold/SST or red-top serum tube; verify local policy",
+  "helper_cues": [
+    "Route to chemistry or sendout area",
+    "Separate serum as required",
+    "Avoid plasma unless local procedure allows it"
+  ],
+  "memory_hook": "SPEP separates serum proteins into a pattern before band identity is confirmed.",
+  "updated": "2026-05-14"
+}

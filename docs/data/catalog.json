@@ -108,6 +108,15 @@
     "card": "cards/phosphorus.svg"
   },
   {
+    "slug": "spep",
+    "short_name": "SPEP",
+    "full_name": "Serum Protein Electrophoresis",
+    "category": "Chemistry",
+    "updated": "2026-05-14",
+    "url": "tests/spep.html",
+    "card": "cards/spep.svg"
+  },
+  {
     "slug": "spife",
     "short_name": "SPIFE",
     "full_name": "Serum Protein Immunofixation Electrophoresis",
