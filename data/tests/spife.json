@@ -1,0 +1,30 @@
+{
+  "slug": "spife",
+  "short_name": "SPIFE",
+  "full_name": "Serum Protein Immunofixation Electrophoresis",
+  "pronunciation": "ess-pie-fee",
+  "category": "Chemistry",
+  "accent": "#059669",
+  "icons": [
+    "serum",
+    "bands",
+    "protein",
+    "sendout"
+  ],
+  "what_it_is": "A serum test that identifies specific immunoglobulin protein bands.",
+  "why_ordered": [
+    "Follow up abnormal serum protein patterns",
+    "Look for monoclonal protein bands",
+    "Evaluate plasma cell disorder workups",
+    "Often paired with SPEP or free light chains"
+  ],
+  "specimen": "Serum",
+  "container": "Gold/SST or red-top serum tube; verify local policy",
+  "helper_cues": [
+    "Route to chemistry or sendout area",
+    "Allow serum to clot and separate as required",
+    "Check local stability and minimum volume"
+  ],
+  "memory_hook": "SPIFE fixes the protein band identity after a serum protein pattern is seen.",
+  "updated": "2026-05-13"
+}

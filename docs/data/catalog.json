@@ -108,6 +108,15 @@
     "card": "cards/phosphorus.svg"
   },
   {
+    "slug": "spife",
+    "short_name": "SPIFE",
+    "full_name": "Serum Protein Immunofixation Electrophoresis",
+    "category": "Chemistry",
+    "updated": "2026-05-13",
+    "url": "tests/spife.html",
+    "card": "cards/spife.svg"
+  },
+  {
     "slug": "tch",
     "short_name": "TCH",
     "full_name": "Total Cholesterol",
