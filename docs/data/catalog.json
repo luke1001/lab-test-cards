@@ -27,6 +27,24 @@
     "card": "cards/retic.svg"
   },
   {
+    "slug": "albumin",
+    "short_name": "Alb",
+    "full_name": "Albumin",
+    "category": "Chemistry",
+    "updated": "2026-05-15",
+    "url": "tests/albumin.html",
+    "card": "cards/albumin.svg"
+  },
+  {
+    "slug": "amylase",
+    "short_name": "Amy",
+    "full_name": "Amylase",
+    "category": "Chemistry",
+    "updated": "2026-05-15",
+    "url": "tests/amylase.html",
+    "card": "cards/amylase.svg"
+  },
+  {
     "slug": "bmp",
     "short_name": "BMP",
     "full_name": "Basic Metabolic Panel",

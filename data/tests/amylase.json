@@ -1,0 +1,30 @@
+{
+  "slug": "amylase",
+  "short_name": "Amy",
+  "full_name": "Amylase",
+  "pronunciation": "am-ih-lays",
+  "category": "Chemistry",
+  "accent": "#059669",
+  "icons": [
+    "serum",
+    "enzyme",
+    "pancreas",
+    "chem"
+  ],
+  "what_it_is": "A chemistry enzyme test commonly associated with pancreatic and digestive workups.",
+  "why_ordered": [
+    "Evaluate pancreatic enzyme activity",
+    "Support abdominal pain workups",
+    "May be paired with lipase",
+    "Sometimes ordered on urine or body fluid"
+  ],
+  "specimen": "Serum, plasma, urine, or body fluid depending on order",
+  "container": "Gold SST, red, green, or approved fluid container; verify local policy",
+  "helper_cues": [
+    "Check specimen source",
+    "Route to chemistry",
+    "Use correct container for fluids"
+  ],
+  "memory_hook": "Amylase is the enzyme card: source matters before routing.",
+  "updated": "2026-05-15"
+}

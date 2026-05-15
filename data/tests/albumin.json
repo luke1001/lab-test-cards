@@ -1,0 +1,30 @@
+{
+  "slug": "albumin",
+  "short_name": "Alb",
+  "full_name": "Albumin",
+  "pronunciation": "al-byoo-min",
+  "category": "Chemistry",
+  "accent": "#059669",
+  "icons": [
+    "serum",
+    "protein",
+    "liver",
+    "nutrition"
+  ],
+  "what_it_is": "A chemistry blood test that measures the main protein made by the liver.",
+  "why_ordered": [
+    "Assess liver-related protein status",
+    "Check nutrition and illness trends",
+    "Evaluate kidney or fluid-loss concerns",
+    "Included in many chemistry panels"
+  ],
+  "specimen": "Serum or plasma",
+  "container": "Gold SST, red, or green tube; verify local policy",
+  "helper_cues": [
+    "Often part of CMP or hepatic panel",
+    "Route to chemistry",
+    "Avoid hemolyzed or short samples"
+  ],
+  "memory_hook": "Albumin is the chemistry protein that often rides with liver panels.",
+  "updated": "2026-05-15"
+}
