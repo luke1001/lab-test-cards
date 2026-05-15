@@ -144,6 +144,15 @@
     "card": "cards/tch.svg"
   },
   {
+    "slug": "anti-xa",
+    "short_name": "Anti-Xa",
+    "full_name": "Anti-Factor Xa Activity",
+    "category": "Coagulation",
+    "updated": "2026-05-15",
+    "url": "tests/anti-xa.html",
+    "card": "cards/anti-xa.svg"
+  },
+  {
     "slug": "aptt",
     "short_name": "aPTT",
     "full_name": "Activated Partial Thromboplastin Time",

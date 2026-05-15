@@ -1,0 +1,30 @@
+{
+  "slug": "anti-xa",
+  "short_name": "Anti-Xa",
+  "full_name": "Anti-Factor Xa Activity",
+  "pronunciation": "an-tee factor ten-ay",
+  "category": "Coagulation",
+  "accent": "#7c3aed",
+  "icons": [
+    "blue",
+    "heparin",
+    "factor xa",
+    "stat"
+  ],
+  "what_it_is": "A coagulation test that measures heparin-related anti-factor Xa activity.",
+  "why_ordered": [
+    "Monitor heparin therapy",
+    "Check low-molecular-weight heparin effect",
+    "Support anticoagulation dosing workflows",
+    "Often time-sensitive after dosing"
+  ],
+  "specimen": "Citrated plasma",
+  "container": "Light blue sodium citrate tube; verify local timing and handling policy",
+  "helper_cues": [
+    "Confirm collection time",
+    "Fill blue tube to mark",
+    "Route promptly to coag"
+  ],
+  "memory_hook": "Anti-Xa is the blue-tube heparin activity check.",
+  "updated": "2026-05-15"
+}
