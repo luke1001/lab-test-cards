@@ -1,0 +1,30 @@
+{
+  "slug": "procal",
+  "short_name": "Procal",
+  "full_name": "Procalcitonin",
+  "pronunciation": "pro-kal-sih-toh-nin",
+  "category": "Chemistry",
+  "accent": "#059669",
+  "icons": [
+    "serum",
+    "infection",
+    "sepsis",
+    "stat"
+  ],
+  "what_it_is": "A chemistry blood test used as an infection and sepsis marker.",
+  "why_ordered": [
+    "Help assess serious infection",
+    "Support sepsis workups",
+    "Trend response in hospitalized patients",
+    "Often ordered with cultures and lactate"
+  ],
+  "specimen": "Serum or plasma",
+  "container": "Gold SST or green lithium heparin tube; verify local policy",
+  "helper_cues": [
+    "Check STAT priority",
+    "Route to chemistry promptly",
+    "Follow local tube rules"
+  ],
+  "memory_hook": "Procal often travels with sepsis labs.",
+  "updated": "2026-05-15"
+}

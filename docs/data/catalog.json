@@ -108,6 +108,15 @@
     "card": "cards/phosphorus.svg"
   },
   {
+    "slug": "procal",
+    "short_name": "Procal",
+    "full_name": "Procalcitonin",
+    "category": "Chemistry",
+    "updated": "2026-05-15",
+    "url": "tests/procal.html",
+    "card": "cards/procal.svg"
+  },
+  {
     "slug": "spep",
     "short_name": "SPEP",
     "full_name": "Serum Protein Electrophoresis",
